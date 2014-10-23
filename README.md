@@ -8,4 +8,4 @@ Run `npm install`
 
 Run `bower install`
 
-Run `grunt`
+Run `grunt serve`
