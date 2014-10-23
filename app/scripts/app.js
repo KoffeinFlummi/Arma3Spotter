@@ -2,12 +2,7 @@
  * Main module of the application.
  */
 
-(function(){
-   "use strict";
-
-
-
-})();
+"use strict";
 
 angular
   .module('arma3SpotterApp', [
@@ -17,18 +12,4 @@ angular
     'ngRoute',
     'ngSanitize',
     'ngTouch'
-  ])
-    .config(function ($routeProvider) {
-    $routeProvider
-      .when('/', {
-        templateUrl: 'views/main.html',
-        controller: 'MainCtrl'
-      })
-      .when('/about', {
-        templateUrl: 'views/about.html',
-        controller: 'AboutCtrl'
-      })
-      .otherwise({
-        redirectTo: '/'
-      });
-  });
+  ]);

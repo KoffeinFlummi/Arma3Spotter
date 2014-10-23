@@ -13,7 +13,9 @@
   angular.module('arma3SpotterApp')
     .controller('SettingsCtrl', Settings);
 
-  function Settings() {
+  Settings.$inject = ["DataService"];
+
+  function Settings(DataService) {
     var vm = this;
 
     vm.activeAmmo = "";
@@ -22,18 +24,14 @@
     vm.saveConfig = saveConfig;
     vm.weapons = [];
 
-    /*
-    vm.weapons = [
-      {name: "Snip1"},
-      {name: "Snip2"}
-    ];*/
-    /*vm.ammos = [
-      {name: "Ammo1"},
-      {name: "Ammo2"}
-    ];*/
+    init();
 
 
-
+    function init() {
+      DataService.getWeapons().then(function(response) {
+        vm.weapons = response;
+      })
+    }
     function saveConfig() {
       // save the config in localStorage
     }
