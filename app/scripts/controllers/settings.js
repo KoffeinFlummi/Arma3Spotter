@@ -7,18 +7,36 @@
  * # SettingsCtrl
  * Controller of the arma3SpotterApp
  */
-angular.module('arma3SpotterApp')
-  .controller('SettingsCtrl', function ($scope) {
-    $scope.weapons = [
+
+(function(){
+
+  angular.module('arma3SpotterApp')
+    .controller('SettingsCtrl', Settings);
+
+  function Settings() {
+    var vm = this;
+
+    vm.activeAmmo = "";
+    vm.activeWeapon = "";
+    vm.ammos = [];
+    vm.saveConfig = saveConfig;
+    vm.weapons = [];
+
+    /*
+    vm.weapons = [
       {name: "Snip1"},
       {name: "Snip2"}
-    ];
-    $scope.activeWeapon = "";
-
-    $scope.ammos = [
+    ];*/
+    /*vm.ammos = [
       {name: "Ammo1"},
       {name: "Ammo2"}
-    ];
-    $scope.activeAmmo = "";
+    ];*/
 
-  });
+
+
+    function saveConfig() {
+      // save the config in localStorage
+    }
+  }
+
+})();

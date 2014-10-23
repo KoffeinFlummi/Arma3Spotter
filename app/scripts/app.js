@@ -1,17 +1,34 @@
-'use strict';
-
 /**
- * @ngdoc overview
- * @name arma3SpotterApp
- * @description
- * # arma3SpotterApp
- *
  * Main module of the application.
  */
+
+(function(){
+   "use strict";
+
+
+
+})();
+
 angular
   .module('arma3SpotterApp', [
     'ngAnimate',
     'ngCookies',
     'ngResource',
-    'ngSanitize'
-  ]);
+    'ngRoute',
+    'ngSanitize',
+    'ngTouch'
+  ])
+    .config(function ($routeProvider) {
+    $routeProvider
+      .when('/', {
+        templateUrl: 'views/main.html',
+        controller: 'MainCtrl'
+      })
+      .when('/about', {
+        templateUrl: 'views/about.html',
+        controller: 'AboutCtrl'
+      })
+      .otherwise({
+        redirectTo: '/'
+      });
+  });
