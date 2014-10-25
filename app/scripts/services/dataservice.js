@@ -27,7 +27,6 @@
     }
 
     function getWeaponsComplete(response) {
-      debugger;
       return response.data;
     }
     function getWeaponsFailed(error) {

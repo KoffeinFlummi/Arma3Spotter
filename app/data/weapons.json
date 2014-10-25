@@ -2,7 +2,7 @@
   {
     "type": "srifle_EBR_F",
     "name": "Mk14 Mod 1 EBR",
-    "mod": "",
+    "mod": "Arma3",
     "magazines": [
       {
         "type": "20Rnd_762x51_Mag",
@@ -18,7 +18,7 @@
   {
     "type": "srifle_DMR_01_F",
     "name": "VS-121",
-    "mod": "",
+    "mod": "Arma3",
     "magazines": [
       {
         "type": "10Rnd_762x51_Mag",
@@ -34,7 +34,7 @@
   {
     "type": "srifle_LRR_F",
     "name": "M200 Intervention",
-    "mod": "",
+    "mod": "Arma3",
     "magazines": [
       {
         "type": "7Rnd_408_Mag",
@@ -50,7 +50,7 @@
   {
     "type": "srifle_GM6_F",
     "name": "GM6 Lynx",
-    "mod": "",
+    "mod": "Arma3",
     "magazines": [
       {
         "type": "5Rnd_127x108_Mag",

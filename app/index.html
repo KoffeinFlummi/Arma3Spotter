@@ -29,6 +29,15 @@
         <h2>Settings</h2>
         <form role="form">
           <div class="row">
+            <div class="col-md-12">
+              <div class="form-group">
+                <label for="mod">Mod</label>
+                <select class="form-control" name="mod" id="mod" ng-model="Settings.activeMod" ng-options="mod for mod in Settings.mods ">
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="row">
             <div class="col-md-6">
               <div class="form-group">
                 <label for="weapon">Weapon</label>
@@ -120,6 +129,7 @@
 <!-- bower:js -->
 <script src="bower_components/jquery/dist/jquery.js"></script>
 <script src="bower_components/angular/angular.js"></script>
+<script src="bower_components/lodash/dist/lodash.compat.js"></script>
 <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
 <script src="bower_components/angular-resource/angular-resource.js"></script>
 <script src="bower_components/angular-cookies/angular-cookies.js"></script>
@@ -136,6 +146,7 @@
 <script src="scripts/controllers/calculation.js"></script>
 <script src="scripts/services/dataservice.js"></script>
 <script src="scripts/services/logger.js"></script>
+<script src="scripts/filters/unique.js"></script>
 <!-- endbuild -->
 </body>
 </html>

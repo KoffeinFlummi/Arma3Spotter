@@ -21,6 +21,7 @@
     vm.activeAmmo = "";
     vm.activeWeapon = "";
     vm.ammos = [];
+    vm.mods = [];
     vm.saveConfig = saveConfig;
     vm.weapons = [];
 
@@ -30,6 +31,13 @@
     function init() {
       DataService.getWeapons().then(function(response) {
         vm.weapons = response;
+
+        vm.weapons.forEach(function(item, index) {
+          if (vm.mods.indexOf(item.mod) === -1) {
+            vm.mods.push(item.mod);
+          }
+        });
+
       })
     }
     function saveConfig() {
