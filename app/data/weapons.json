@@ -4,7 +4,7 @@
     "mod": "",
     "magazines": {
       "20Rnd_762x51_Mag": {
-        "ammo": "AGM_B_762x51_M118LR", // this is just stored for referential purposes
+        "ammo": "AGM_B_762x51_M118LR",
         "name": "7.62mm 20Rnd Mag",
         "initSpeed": 792,
         "airFriction": -0.0008577,
