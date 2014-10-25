@@ -1,5 +1,199 @@
-[
-  {"name": "M200 Intervention"},
-  {"name": "Mk14 Mod 1 EBR"},
-  {"name": "GM6 Lynx"}
-]
+{
+  "srifle_EBR_F": {
+    "name": "Mk14 Mod 1 EBR",
+    "mod": "",
+    "magazines": {
+      "20Rnd_762x51_Mag": {
+        "ammo": "AGM_B_762x51_M118LR", // this is just stored for referential purposes
+        "name": "7.62mm 20Rnd Mag",
+        "initSpeed": 792,
+        "airFriction": -0.0008577,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      }
+    }
+  },
+  "srifle_DMR_01_F": {
+    "name": "VS-121",
+    "mod": "",
+    "magazines": {
+      "10Rnd_762x51_Mag": {
+        "ammo": "B_762x51_Ball",
+        "name": "10Rnd 7.62x51 Magazine",
+        "initSpeed": 800,
+        "airFriction": -0.00096,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      }
+    }
+  },
+  "srifle_LRR_F": {
+    "name": "M200 Intervention",
+    "mod": "",
+    "magazines": {
+      "7Rnd_408_Mag": {
+        "ammo": "B_408_Ball",
+        "name": ".408 7Rnd Mag",
+        "initSpeed": 910,
+        "airFriction": -0.00048,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      }
+    }
+  },
+  "srifle_GM6_F": {
+    "name": "GM6 Lynx",
+    "mod": "",
+    "magazines": {
+      "5Rnd_127x108_Mag": {
+        "ammo": "B_127x108_Ball",
+        "name": "12.7mm 5Rnd Mag",
+        "initSpeed": 820,
+        "airFriction": -0.00056,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      },
+      "5Rnd_127x108_APDS_Mag": {
+        "ammo": "B_127x108_APDS",
+        "name": "12.7mm 5Rnd APDS Mag",
+        "initSpeed": 1060,
+        "airFriction": -0.00036,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      }
+    }
+  },
+
+  "BWA3_G28_Standard": {
+    "name": "G28 E2 (Standard)",
+    "mod": "BWMod",
+    "magazines": {
+      "BWA3_10Rnd_762x51_G28": {
+        "ammo": "BWA3_B_762x51_Ball",
+        "name": "G28 7.62x51mm 10Rnd Mag",
+        "initSpeed": 792,
+        "airFriction": -0.001,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      },
+      "BWA3_10Rnd_762x51_G28_Tracer": {
+        "ammo": "BWA3_B_762x51_Ball",
+        "name": "G28 7.62x51mm 10Rnd Mag (Tracer)",
+        "initSpeed": 792,
+        "airFriction": -0.001,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      },
+      "BWA3_10Rnd_762x51_G28_Tracer_Dim": {
+        "ammo": "BWA3_B_762x51_Ball_Tracer_Dim",
+        "name": "G28 7.62x51mm 10Rnd Mag (IR-DIM)",
+        "initSpeed": 792,
+        "airFriction": -0.001,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      },
+      "BWA3_10Rnd_762x51_G28_SD": {
+        "ammo": "BWA3_B_762x51_Ball_SD",
+        "name": "G28 7.62x51mm 10Rnd Mag (SD)",
+        "initSpeed": 320,
+        "airFriction": -0.00048,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      },
+      "BWA3_10Rnd_762x51_G28_AP": {
+        "ammo": "BWA3_B_762x51_Ball_AP",
+        "name": "G28 7.62x51mm 10Rnd Mag (AP)",
+        "initSpeed": 792,
+        "airFriction": -0.001,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      },
+      "BWA3_10Rnd_762x51_G28_LR": {
+        "ammo": "BWA3_B_762x51_Ball_LR",
+        "name": "G28 7.62x51mm M118LR 10Rnd Mag (LR)",
+        "initSpeed": 750,
+        "airFriction": -0.000204,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      }
+    }
+  },
+  "BWA3_G82": {
+    "name": "G82",
+    "mod": "BWMod",
+    "magazines": {
+      "BWA3_10Rnd_127x99_G82": {
+        "ammo": "BWA3_B_127x99_Ball",
+        "name": "G82 12.7x99mm 10Rnd Mag",
+        "initSpeed": 910,
+        "airFriction": -0.00056,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      },
+      "BWA3_10Rnd_127x99_G82_Tracer": {
+        "ammo": "BWA3_B_127x99_Ball",
+        "name": "G82 12.7x99mm 10Rnd Mag (Tracer)",
+        "initSpeed": 910,
+        "airFriction": -0.00056,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      },
+      "BWA3_10Rnd_127x99_G82_Tracer_Dim": {
+        "ammo": "BWA3_B_127x99_Ball_Tracer_Dim",
+        "name": "G82 12.7x99mm 10Rnd Mag (IR-DIM)",
+        "initSpeed": 910,
+        "airFriction": -0.00056,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      },
+      "BWA3_10Rnd_127x99_G82_SD": {
+        "ammo": "BWA3_B_127x99_Ball_SD",
+        "name": "G82 12.7x99mm 10Rnd Mag (SD)",
+        "initSpeed": 320,
+        "airFriction": -0.00028,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      },
+      "BWA3_10Rnd_127x99_G82_AP": {
+        "ammo": "BWA3_B_127x99_Ball_AP",
+        "name": "G82 12.7x99mm 10Rnd Mag (AP)",
+        "initSpeed": 910,
+        "airFriction": -0.00056,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      },
+      "BWA3_10Rnd_127x99_G82_AP_Tracer": {
+        "ammo": "BWA3_B_127x99_Ball_AP",
+        "name": "G82 12.7x99mm 10Rnd Mag (AP Tracer)",
+        "initSpeed": 910,
+        "airFriction": -0.00056,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      },
+      "BWA3_10Rnd_127x99_G82_Raufoss": {
+        "ammo": "BWA3_B_127x99_Ball_Raufoss",
+        "name": "G82 12.7x99mm Mk 211 10Rnd Mag (Raufoss)",
+        "initSpeed": 910,
+        "airFriction": -0.00056,
+        "timeToLive": 0.05,
+        "simulationStep": 0.05
+      },
+      "BWA3_10Rnd_127x99_G82_Raufoss_Tracer": {
+        "ammo": "BWA3_B_127x99_Ball_Raufoss",
+        "name": "G82 12.7x99mm Mk 211 10Rnd Mag (Raufoss Tracer)",
+        "initSpeed": 910,
+        "airFriction": -0.00056,
+        "timeToLive": 0.05,
+        "simulationStep": 0.05
+      },
+      "BWA3_10Rnd_127x99_G82_Raufoss_Tracer_Dim": {
+        "ammo": "BWA3_B_127x99_Ball_Raufoss_Tracer_Dim",
+        "name": "G82 12.7x99mm Mk 211 10Rnd Mag (Raufoss IR-DIM)",
+        "initSpeed": 910,
+        "airFriction": -0.00056,
+        "timeToLive": 0.05,
+        "simulationStep": 0.05
+      }
+    }
+  }
+}
