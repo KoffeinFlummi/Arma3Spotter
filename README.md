@@ -9,3 +9,6 @@ Run `npm install`
 Run `bower install`
 
 Run `grunt serve`
+
+###Preview###
+http://koffeinflummi.github.io/Arma3Spotter/
