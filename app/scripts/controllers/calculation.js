@@ -30,18 +30,6 @@ angular.module('arma3SpotterApp')
     vm.resultVertical = "";
 
     function calculate(){
-      /*
-
-        FILL THIS WITH LIFE
-
-        Current Weapon:
-          vm.Data.getActiveWeapon() // returns weapon object
-
-        Current Ammo:
-          vm.Data.getActiveAmmo() // returns ammo object
-
-      */
-
       function traceBullet(caliber, distance, angleTarget, windHead, windCross, angle) {
         var initSpeed = caliber.initSpeed;
         var airFriction = caliber.airFriction;
