@@ -11,7 +11,7 @@ Arma3Spotter
 ```shell
 npm install
 bower install
-grunt install
+grunt serve
 ```
 
 ### Preview
