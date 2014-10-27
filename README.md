@@ -1,6 +1,8 @@
 Arma3Spotter
 ============
 
+![](https://magnum.travis-ci.com/KoffeinFlummi/Arma3Spotter.svg?token=PrM32yssgZHtozRsukxF&branch=master)
+
 Dev Requirements:
 * [Nodejs](http://nodejs.org/)
 
