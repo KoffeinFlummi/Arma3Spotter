@@ -3,10 +3,10 @@ Arma3Spotter
 
 ![](http://img.shields.io/travis/joyent/node.svg)
 
-Dev Requirements:
-* [Nodejs](http://nodejs.org/)
 
 ### Setup
+
+**Requires NodeJS, NPM, Bower and Grunt.**
 
 ```shell
 npm install
