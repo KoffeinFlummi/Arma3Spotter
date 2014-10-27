@@ -6,11 +6,14 @@ Arma3Spotter
 Dev Requirements:
 * [Nodejs](http://nodejs.org/)
 
-Run `npm install`
+### Setup
 
-Run `bower install`
+```shell
+npm install
+bower install
+grunt install
+```
 
-Run `grunt serve`
+### Preview
 
-###Preview###
 http://koffeinflummi.github.io/Arma3Spotter/
