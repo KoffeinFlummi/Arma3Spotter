@@ -9,13 +9,13 @@
  */
 
 
-(function(){
+(function () {
 
 
-angular.module('arma3SpotterApp')
-  .controller('CalculationCtrl', Calculation);
+  angular.module('arma3SpotterApp')
+    .controller('CalculationCtrl', Calculation);
 
-  Calculation.$inject = ["$scope","Data"];
+  Calculation.$inject = ["$scope", "Data"];
 
   function Calculation($scope, Data) {
     var vm = this;
@@ -29,35 +29,7 @@ angular.module('arma3SpotterApp')
     vm.resultHorizontal = "";
     vm.resultVertical = "";
 
-    function calculate(){
-      function traceBullet(caliber, distance, angleTarget, windHead, windCross, angle) {
-        var initSpeed = caliber.initSpeed;
-        var airFriction = caliber.airFriction;
-        var timeToLive = caliber.timeToLive;
-        var simulationStep = caliber.simulationStep;
-
-        angle *= Math.PI / 180;
-        angleTarget *= Math.PI / 180;
-
-        var posTarget = [Math.cos(angleTarget) * distance, Math.sin(angleTarget) * distance];
-        var pos = [0,0,0];
-        var velocity = [Math.cos(angle) * initSpeed, Math.sin(angle) * initSpeed, 0];
-
-        var its = Math.floor(timeToLive / simulationStep);
-        for (var i = 0; i < its; i++) {
-          var velMag = Math.sqrt(Math.pow(velocity[0], 2) + Math.pow(velocity[1], 2) + Math.pow(velocity[2], 2));
-          velocity[0] += simulationStep * (velocity[0] * velMag * airFriction) + simulationStep * 0.7 * windHead;
-          velocity[1] += simulationStep * (velocity[1] * velMag * airFriction - 9.81);
-          velocity[2] += simulationStep * (velocity[2] * velMag * airFriction) + simulationStep * 0.7 * windCross;
-          pos[0] += velocity[0] * simulationStep;
-          pos[1] += velocity[1] * simulationStep;
-          pos[2] += velocity[2] * simulationStep;
-
-          if (pos[0] >= posTarget[0]) {break;}
-        }
-
-        return [pos[1] - posTarget[1], pos[2]];
-      }
+    function calculate() {
 
       var ammo = vm.Data.getActiveAmmo();
 
@@ -93,11 +65,44 @@ angular.module('arma3SpotterApp')
 
       vm.resultVertical = ((angle1 - angle) * 17.77777).toFixed(1);
       try {
-        vm.resultHorizontal = (Math.atan(fr/distance) * (180/Math.PI) * 17.77777).toFixed(1);
-      } catch(err) {
+        vm.resultHorizontal = (Math.atan(fr / distance) * (180 / Math.PI) * 17.77777).toFixed(1);
+      } catch (err) {
         vm.resultHorizontal = 0;
       }
     }
+
+
+    function traceBullet(caliber, distance, angleTarget, windHead, windCross, angle) {
+      var initSpeed = caliber.initSpeed;
+      var airFriction = caliber.airFriction;
+      var timeToLive = caliber.timeToLive;
+      var simulationStep = caliber.simulationStep;
+
+      angle *= Math.PI / 180;
+      angleTarget *= Math.PI / 180;
+
+      var posTarget = [Math.cos(angleTarget) * distance, Math.sin(angleTarget) * distance];
+      var pos = [0, 0, 0];
+      var velocity = [Math.cos(angle) * initSpeed, Math.sin(angle) * initSpeed, 0];
+
+      var its = Math.floor(timeToLive / simulationStep);
+      for (var i = 0; i < its; i++) {
+        var velMag = Math.sqrt(Math.pow(velocity[0], 2) + Math.pow(velocity[1], 2) + Math.pow(velocity[2], 2));
+        velocity[0] += simulationStep * (velocity[0] * velMag * airFriction) + simulationStep * 0.7 * windHead;
+        velocity[1] += simulationStep * (velocity[1] * velMag * airFriction - 9.81);
+        velocity[2] += simulationStep * (velocity[2] * velMag * airFriction) + simulationStep * 0.7 * windCross;
+        pos[0] += velocity[0] * simulationStep;
+        pos[1] += velocity[1] * simulationStep;
+        pos[2] += velocity[2] * simulationStep;
+
+        if (pos[0] >= posTarget[0]) {
+          break;
+        }
+      }
+
+      return [pos[1] - posTarget[1], pos[2]];
+    }
+
 
   }
 

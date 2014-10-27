@@ -75,18 +75,18 @@
       <div id="calculator" ng-controller="CalculationCtrl as Calculation">
         <h3>Spotter</h3>
         <!-- Temperature, Windage (Head, Cross), Distance, Elevation -->
-        <form role="form">
+        <form name="calculationForm" role="form">
           <div class="row">
             <div class="col-md-6">
               <div class="form-group">
                 <label for="distance">Distance</label>
-                <input class="form-control" type="number" id="distance" name="distance" ng-model="Calculation.distance"/>
+                <input class="form-control" type="number" id="distance" name="distance" ng-model="Calculation.distance" min="0" required/>
               </div>
             </div>
             <div class="col-md-6">
               <div class="form-group">
                 <label for="angle">Angle</label>
-                <input class="form-control" type="number" id="angle" name="angle" ng-model="Calculation.angle"/>
+                <input class="form-control" type="number" id="angle" name="angle" ng-model="Calculation.angle" min="0" max="360" required/>
               </div>
             </div>
           </div>
@@ -95,18 +95,18 @@
             <div class="col-md-6">
               <div class="form-group">
                 <label for="headwind">Headwind</label>
-                <input class="form-control" type="number" id="headwind" name="headwind" ng-model="Calculation.headwind"/>
+                <input class="form-control" type="number" id="headwind" name="headwind" ng-model="Calculation.headwind" step=0.01 required/>
               </div>
             </div>
             <div class="col-md-6">
               <div class="form-group">
                 <label for="crosswind">Crosswind</label>
-                <input class="form-control" type="number" id="crosswind" name="crosswind"  ng-model="Calculation.crosswind"/>
+                <input class="form-control"  type="number" id="crosswind" name="crosswind"  ng-model="Calculation.crosswind" step=0.01 required/>
               </div>
             </div>
           </div>
 
-          <button class="btn btn-primary" ng-click="Calculation.calculate()">Calculate</button>
+          <button class="btn btn-primary" ng-disabled="!calculationForm.$valid" ng-click="Calculation.calculate()">Calculate</button>
         </form>
 
         <div class="row">
