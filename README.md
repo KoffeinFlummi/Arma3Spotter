@@ -1,7 +1,7 @@
 Arma3Spotter
 ============
 
-![](http://img.shields.io/travis/joyent/node.svg)
+![](http://img.shields.io/travis/KoffeinFlummi/Arma3Spotter.svg)
 
 
 ### Setup
