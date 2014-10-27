@@ -20,14 +20,14 @@
   function Calculation($scope, Data) {
     var vm = this;
 
-    vm.angle = "";
+    vm.angle = 0;
     vm.calculate = calculate;
-    vm.crosswind = "";
+    vm.crosswind = 0;
     vm.Data = Data;
-    vm.distance = "";
-    vm.headwind = "";
-    vm.resultHorizontal = "";
-    vm.resultVertical = "";
+    vm.distance = 0;
+    vm.headwind = 0;
+    vm.resultHorizontal = 0;
+    vm.resultVertical = 0;
 
     function calculate() {
 
@@ -102,7 +102,6 @@
 
       return [pos[1] - posTarget[1], pos[2]];
     }
-
 
   }
 
