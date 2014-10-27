@@ -1,10 +1,33 @@
 body {
-  padding-top: 10px;
+  background: black;
 }
 
-input.ng-invalid {
-  border: 1px solid red;
+#wrapper {
+  background: url('../images/bg.png') no-repeat black;
+  width: 405px;
+  height: 676px;
+  padding: 115px 97px 300px 95px;
+  font-size: 11px;
+  font-family: "Droid Sans Mono";
 }
-input.ng-valid {
-  border: 1px solid green;
+
+h3 {
+  margin: 0;
+  background: black;
+  border-radius: 4px;
+  font-size: 11px;
+  padding: 4px;
+  color: white;
+  width: 100px;
+}
+
+form {
+  border: 1px solid black;
+  border-radius: 6px;
+  padding: 4px;
+}
+
+.form-control {
+  font-size: 11px;
+  height: 12px;
 }
