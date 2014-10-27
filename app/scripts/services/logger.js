@@ -21,7 +21,7 @@
       logError: function(msg) {
         console.log(msg);
       }
-    }
+    };
   }
 
 })();
