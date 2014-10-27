@@ -13,9 +13,9 @@
   angular.module('arma3SpotterApp')
     .controller('SettingsCtrl', Settings);
 
-  Settings.$inject = ["$scope", "DataService", "StorageService"];
+  Settings.$inject = ["$scope", "DataService", "StorageService", "Data"];
 
-  function Settings($scope, DataService, StorageService) {
+  function Settings($scope, DataService, StorageService, Data) {
 
     var vm = this;
 
@@ -41,7 +41,7 @@
 
 
     function init() {
-      DataService.getWeapons().then(function(response) {
+      return DataService.getWeapons().then(function(response) {
         vm.allWeapons = response;
 
         // received the weapons list now prepare the select boxes
@@ -56,12 +56,15 @@
         });
 
         setActiveMod();
+
+        return vm.allWeapons;
       });
 
     }
 
     function ammoChanged() {
-      // do I need this?
+      Data.setActiveWeapon(vm.activeWeapon);
+      Data.setActiveAmmo(vm.activeAmmo);
     }
 
     function modChanged() {

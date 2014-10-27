@@ -15,20 +15,25 @@
 angular.module('arma3SpotterApp')
   .controller('CalculationCtrl', Calculation);
 
-  //Calculation.$inject = ["dataService"];
+  Calculation.$inject = ["$scope","Data"];
 
-  function Calculation(/*dataService*/) {
+  function Calculation($scope, Data) {
     var vm = this;
+
+    vm.angle = "";
     vm.calculate = calculate;
     vm.crosswind = "";
+    vm.Data = Data;
     vm.distance = "";
-    vm.elevation = "";
     vm.headwind = "";
+
+
+
 
     function calculate(){
       vm.crosswind = 1;
       vm.distance = 2;
-      vm.elevation = 3;
+      vm.angle = 3;
       vm.headwind = 4;
     }
 
