@@ -26,15 +26,30 @@ angular.module('arma3SpotterApp')
     vm.Data = Data;
     vm.distance = "";
     vm.headwind = "";
+    vm.resultHorizontal = "";
+    vm.resultVertical = "";
+
 
 
 
 
     function calculate(){
-      vm.crosswind = 1;
-      vm.distance = 2;
-      vm.angle = 3;
-      vm.headwind = 4;
+
+      /*
+
+        FILL THIS WITH LIFE
+
+        Current Weapon:
+          vm.Data.getActiveWeapon() // returns weapon object
+
+        Current Ammo:
+          vm.Data.getActiveAmmo() // returns ammo object
+
+      */
+
+      // Fill this with the values
+      vm.resultHorizontal = 3.37;
+      vm.resultVertical = -8.1;
     }
 
   }
