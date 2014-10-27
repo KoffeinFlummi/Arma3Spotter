@@ -63,9 +63,28 @@
         f1 = f2;
       }
 
-      vm.resultVertical = ((angle1 - angle) * 17.77777).toFixed(1);
       try {
-        vm.resultHorizontal = (Math.atan(fr / distance) * (180 / Math.PI) * 17.77777).toFixed(1);
+        var vertical = ((angle1 - angle) * 17.77777).toFixed(1);
+        if (isNaN(vertical)) {
+          throw "HairOnFire";
+        }
+        if (parseInt(vertical) == vertical) {
+          vertical = parseInt(vertical);
+        }
+        vm.resultVertical = vertical;
+      } catch (err) {
+        vm.resultVertical = 0;
+      }
+      
+      try {
+        var horizontal = (Math.atan(fr / distance) * (180 / Math.PI) * 17.77777).toFixed(1);
+        if (isNaN(horizontal)) {
+          throw "HairOnFire";
+        }
+        if (parseInt(horizontal) == horizontal) {
+          horizontal = parseInt(horizontal);
+        }
+        vm.resultHorizontal = horizontal;
       } catch (err) {
         vm.resultHorizontal = 0;
       }
