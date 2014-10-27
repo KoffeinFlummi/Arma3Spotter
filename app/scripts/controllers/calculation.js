@@ -63,7 +63,12 @@
         f1 = f2;
       }
 
-      vm.resultVertical = ((angle1 - angle) * 17.77777).toFixed(1);
+      var vertical = ((angle1 - angle) * 17.77777).toFixed(1);
+      if (isNan(vertical)) {
+        vertical = 0;
+      }
+      vm.resultVertical = vertical;   
+
       try {
         vm.resultHorizontal = (Math.atan(fr / distance) * (180 / Math.PI) * 17.77777).toFixed(1);
       } catch (err) {
