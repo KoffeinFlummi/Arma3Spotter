@@ -1,12 +1,9 @@
 language: node_js
 node_js:
   - '0.10'
-before_install:
-  - 'npm install -g bower'
-  - 'npm install -g grunt-cli'
-  - 'cd src'
-install:
-  - 'npm install'
-  - 'bower_install'
 before_script:
+  - 'npm install -g bower grunt-cli'
+  - 'cd src'
+  - 'npm install'
+  - 'bower install'
   - 'grunt test'
