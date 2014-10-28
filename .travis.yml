@@ -6,4 +6,3 @@ before_script:
   - 'cd src'
   - 'npm install'
   - 'bower install'
-  - 'grunt test'
