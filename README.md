@@ -9,6 +9,7 @@ Arma3Spotter
 **Requires NodeJS, NPM, Bower and Grunt.**
 
 ```shell
+cd src
 npm install
 bower install
 grunt serve
