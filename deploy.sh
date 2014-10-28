@@ -1,8 +1,7 @@
 #!/bin/bash
 
-rm -rf www || exit 0
-mkdir www
-cd src
+rm -rf ../www || exit 0
+mkdir ../www
 grunt build
 (
   cd ../www
