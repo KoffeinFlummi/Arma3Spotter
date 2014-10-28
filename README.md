@@ -17,7 +17,7 @@ grunt serve
 
 ### Building App Packages
 
-*Requires OSX & XCode & XCode Command Line Tools*
+**Requires OSX & XCode & XCode Command Line Tools**
 
 ```shell
 cd src
