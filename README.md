@@ -15,6 +15,18 @@ bower install
 grunt serve
 ```
 
+### Building App Packages
+
+*Requires OSX & XCode & XCode Command Line Tools*
+
+```shell
+cd src
+grunt build
+grunt cordovaBuild
+```
+
+
+
 ### Preview
 
 http://koffeinflummi.github.io/Arma3Spotter/
