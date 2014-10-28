@@ -1,7 +1,7 @@
 Arma3Spotter
 ============
 
-![](http://img.shields.io/travis/KoffeinFlummi/Arma3Spotter.svg)
+[![](http://img.shields.io/travis/KoffeinFlummi/Arma3Spotter.svg)](https://travis-ci.org/KoffeinFlummi/Arma3Spotter)
 
 
 ### Setup
