@@ -30,3 +30,5 @@ grunt cordovaBuild
 ### Preview
 
 http://koffeinflummi.github.io/Arma3Spotter/
+
+![iosemulator](https://cloud.githubusercontent.com/assets/1235520/4808109/d7af09c0-5e9c-11e4-8515-86a200577c9e.png)
