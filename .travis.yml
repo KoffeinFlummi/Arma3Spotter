@@ -6,7 +6,7 @@ before_script:
   - 'cd src'
   - 'npm install'
   - 'bower install'
-script:
+after_script:
   - 'npm run-script deploy'
 env:
   global:
