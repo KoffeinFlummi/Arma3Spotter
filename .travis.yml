@@ -6,3 +6,9 @@ before_script:
   - 'cd src'
   - 'npm install'
   - 'bower install'
+script:
+  - 'npm run-script deploy'
+env:
+  global:
+    - GH_REF: 'github.com/KoffeinFlummi/Arma3Spotter'
+    - secure: 'NZfVQwI9XVj2K90wYoqVBnkjsHGu2a/+JMRvARQarMCdjid/c51GmkRYcWLgn0ezQ9+x7ad3knFdaJiT3cZgZ3bTvaZhlG+EPx848GRFIPTop+Z8HAXQNg2taIkvTLLFKUQEmpehX0offnRGe0aKm2s60XmaoZ/Hy+TcDJBq2zw='
