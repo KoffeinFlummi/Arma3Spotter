@@ -20,12 +20,12 @@
   function Calculation($scope, Data) {
     var vm = this;
 
-    vm.angle = 0;
+    vm.angle = "";
     vm.calculate = calculate;
-    vm.crosswind = 0;
+    vm.crosswind = "";
     vm.Data = Data;
-    vm.distance = 0;
-    vm.headwind = 0;
+    vm.distance = "";
+    vm.headwind = "";
     vm.resultHorizontal = 0;
     vm.resultVertical = 0;
 
