@@ -1,5 +1,3 @@
-'use strict';
-
 /**
  * @ngdoc service
  * @name arma3SpotterApp.DataService
@@ -12,10 +10,10 @@
   "use strict";
 
   angular
-    .module('arma3SpotterApp')
-    .factory('DataService', DataService);
+    .module("arma3SpotterApp")
+    .factory("DataService", DataService);
 
-  DataService.$inject = ['$http', 'logger'];
+  DataService.$inject = ["$http", "logger"];
 
   function DataService($http, logger) {
     // Service logic
@@ -30,7 +28,7 @@
       return response.data;
     }
     function getWeaponsFailed(error) {
-      logger.logError('XHR failed for getWeapons.' + error.data);
+      logger.logError("XHR failed for getWeapons." + error.data);
     }
 
     // Public API here

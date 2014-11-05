@@ -1,9 +1,9 @@
-'use strict';
+"use strict";
 
-describe('Service: logger', function () {
+describe("Service: logger", function () {
 
-  // load the service's module
-  beforeEach(module('arma3SpotterApp'));
+  // load the service"s module
+  beforeEach(module("arma3SpotterApp"));
 
   // instantiate service
   var logger;
@@ -11,7 +11,7 @@ describe('Service: logger', function () {
     logger = _logger_;
   }));
 
-  it('should be defined', function () {
+  it("should be defined", function () {
     expect(logger).toBeDefined();
     expect(logger.logError).toBeDefined();
   });

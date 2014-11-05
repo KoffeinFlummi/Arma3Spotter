@@ -1,5 +1,3 @@
-'use strict';
-
 /**
  * @ngdoc service
  * @name arma3SpotterApp.logger
@@ -13,8 +11,8 @@
   "use strict";
 
   angular
-    .module('arma3SpotterApp')
-    .service('logger', logger);
+    .module("arma3SpotterApp")
+    .service("logger", logger);
 
   function logger() {
     return {

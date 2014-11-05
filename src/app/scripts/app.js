@@ -5,11 +5,11 @@
 "use strict";
 
 angular
-  .module('arma3SpotterApp', [
-    'ngAnimate',
-    'ngCookies',
-    'ngResource',
-    'ngRoute',
-    'ngSanitize',
-    'ngTouch'
+  .module("arma3SpotterApp", [
+    "ngAnimate",
+    "ngCookies",
+    "ngResource",
+    "ngRoute",
+    "ngSanitize",
+    "ngTouch"
   ]);

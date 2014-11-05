@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 /**
  * @ngdoc function
@@ -12,8 +12,8 @@
 (function () {
 
 
-  angular.module('arma3SpotterApp')
-    .controller('CalculationCtrl', Calculation);
+  angular.module("arma3SpotterApp")
+    .controller("CalculationCtrl", Calculation);
 
   Calculation.$inject = ["$scope", "Data"];
 

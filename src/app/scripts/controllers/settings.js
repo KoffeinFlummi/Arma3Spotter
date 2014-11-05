@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 /**
  * @ngdoc function
@@ -10,8 +10,8 @@
 
 (function(){
 
-  angular.module('arma3SpotterApp')
-    .controller('SettingsCtrl', Settings);
+  angular.module("arma3SpotterApp")
+    .controller("SettingsCtrl", Settings);
 
   Settings.$inject = ["$scope", "DataService", "StorageService", "Data"];
 
@@ -31,7 +31,7 @@
     vm.weaponChanged = weaponChanged;
     vm.weapons = [];
 
-    // I'm too noobish to get this to work
+    // I"m too noobish to get this to work
     /*$scope.$watch("vm.activeMod", angular.bind(this, function(val,orig){
       this.modChanged(val, orig);
     }));*/
@@ -45,7 +45,7 @@
         vm.allWeapons = response;
 
         // received the weapons list now prepare the select boxes
-        vm.allWeapons.forEach(function(item, index) {
+        vm.allWeapons.forEach(function(item/*, index*/) {
           if (vm.mods.indexOf(item.mod) === -1) {
             vm.mods.push(item.mod);
           }
@@ -69,7 +69,7 @@
 
     function modChanged() {
       vm.weapons = [];
-      vm.allWeapons.forEach(function(item, index) {
+      vm.allWeapons.forEach(function(item/*, index*/) {
         if (item.mod === vm.activeMod) {
           vm.weapons.push(item);
         }

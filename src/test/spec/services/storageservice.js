@@ -1,18 +1,18 @@
-'use strict';
+"use strict";
 
-describe('Service: StorageService', function () {
+describe("Service: StorageService", function () {
 
   var KEY = "myTestKey";
   var VALUE = "Smokebomb";
 
-  // load the service's module
-  beforeEach(module('arma3SpotterApp'));
+  // load the service"s module
+  beforeEach(module("arma3SpotterApp"));
 
   // instantiate service
   var StorageService;
   beforeEach(inject(function (_StorageService_) {
     StorageService = _StorageService_;
-    localStorage.setItem(KEY, '{"type":"string", "item":"' + VALUE + '"}');
+    localStorage.setItem(KEY, "{'type':'string', 'item':'" + VALUE + "'}");
   }));
 
   afterEach(function() {

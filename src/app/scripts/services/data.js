@@ -1,5 +1,3 @@
-'use strict';
-
 /**
  * @ngdoc service
  * @name arma3SpotterApp.Data
@@ -13,8 +11,8 @@
   "use strict";
 
 angular
-  .module('arma3SpotterApp')
-  .factory('Data', function () {
+  .module("arma3SpotterApp")
+  .factory("Data", function () {
     // Service logic
     // ...
 

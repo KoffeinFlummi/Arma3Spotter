@@ -1,9 +1,9 @@
-'use strict';
+"use strict";
 
-describe('Service: DataService', function () {
+describe("Service: DataService", function () {
 
-  // load the service's module
-  beforeEach(module('arma3SpotterApp'));
+  // load the service"s module
+  beforeEach(module("arma3SpotterApp"));
 
   // instantiate service
   var DataService;
@@ -11,7 +11,7 @@ describe('Service: DataService', function () {
     DataService = _DataService_;
   }));
 
-  it('should do something', function () {
+  it("should do something", function () {
     expect(!!DataService).toBe(true);
   });
 
@@ -20,6 +20,7 @@ describe('Service: DataService', function () {
       expect(response).toBeDefined();
       done();
     });
+    return wps;
   });
 
 });

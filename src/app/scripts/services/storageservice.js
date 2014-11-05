@@ -1,5 +1,3 @@
-'use strict';
-
 /**
  * @ngdoc service
  * @name arma3SpotterApp.StorageService
@@ -7,8 +5,8 @@
  * # StorageService
  * Service in the arma3SpotterApp.
  */
-angular.module('arma3SpotterApp')
-  .service('StorageService', function StorageService() {
+angular.module("arma3SpotterApp")
+  .service("StorageService", function StorageService() {
     // AngularJS will instantiate a singleton by calling "new" on this function
   });
 
@@ -16,12 +14,12 @@ angular.module('arma3SpotterApp')
   "use strict";
 
   angular
-    .module('arma3SpotterApp')
-    .factory('StorageService', StorageService);
+    .module("arma3SpotterApp")
+    .factory("StorageService", StorageService);
 
-  StorageService.$inject = ['logger'];
+  //StorageService.$inject = ["logger"];
 
-  function StorageService(logger) {
+  function StorageService(/*logger*/) {
     // Service logic
     function getItem(key) {
       if (!key || key === "") {throw new Error("StorageService.getItem: Key is empty!");}
