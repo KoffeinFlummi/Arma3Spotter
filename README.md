@@ -6,7 +6,7 @@ Arma3Spotter
 
 ### Setup
 
-**Requires NodeJS, NPM, Bower and Grunt.**
+**Requires NodeJS, NPM, Bower and Grunt (grunt-cli).**
 
 ```shell
 cd src
