@@ -12,7 +12,7 @@ describe("Service: StorageService", function () {
   var StorageService;
   beforeEach(inject(function (_StorageService_) {
     StorageService = _StorageService_;
-    localStorage.setItem(KEY, "{'type':'string', 'item':'" + VALUE + "'}");
+    localStorage.setItem(KEY, JSON.stringify({type:"string", item: VALUE}));
   }));
 
   afterEach(function() {
