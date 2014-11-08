@@ -137,6 +137,7 @@
         velocity[1] += simulationStep * (velocity[1] * velMag * airFriction - 9.81);
         velocity[2] += simulationStep * (velocity[2] * velMag * airFriction);
 
+        // wind & density effects
         velocity = vectorAdd(
           vectorAdd(
             velocity,
@@ -156,32 +157,7 @@
           )
         );
 
-        /*
-        pos[0] += velocity[0] * simulationStep;
-        pos[1] += velocity[1] * simulationStep;
-        pos[2] += velocity[2] * simulationStep;
-        */
-
         pos = vectorAdd(pos, vectorMultiply(velocity, simulationStep));
-
-        /*
-        _velocityNew = _velocity vectorAdd (
-          _velocity vectorMultiply (
-            vectorMagnitude _velocity *
-            (AGM_Wind_currentRelativeDensity - 1) *
-            _airFriction *
-            _deltaTime
-          )
-        )
-        vectorAdd (
-          wind vectorMultiply (
-            vectorMagnitude (_velocity vectorAdd wind) *
-            AGM_Wind_currentRelativeDensity *
-            _airFrictionWind *
-            _deltaTime
-          )
-        );
-        */
 
         if (pos[0] >= posTarget[0]) {
           break;
