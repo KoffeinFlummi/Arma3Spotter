@@ -106,6 +106,15 @@
             </div>
           </div>
 
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group">
+                <label for="temperature">Temperature</label>
+                <input class="form-control" type="number" id="temperature" name="temperature" ng-model="Calculation.temperature" step=1 required/>
+              </div>
+            </div>
+          </div>
+
           <button class="btn btn-primary" ng-disabled="!calculationForm.$valid" ng-click="Calculation.calculate()">Calculate</button>
         </form>
 
