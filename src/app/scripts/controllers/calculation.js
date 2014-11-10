@@ -20,18 +20,17 @@
   function Calculation($scope, Data) {
     var vm = this;
 
-    vm.angle = "";
+    vm.angle = 0;
     vm.calculate = calculate;
-    vm.crosswind = "";
+    vm.crosswind = 0;
     vm.Data = Data;
-    vm.distance = "";
-    vm.headwind = "";
-    vm.temperature = "";
+    vm.distance = 1000;
+    vm.headwind = 0;
+    vm.temperature = 30;
     vm.resultHorizontal = 0;
     vm.resultVertical = 0;
 
     function calculate() {
-
       var ammo = vm.Data.getActiveAmmo();
 
       var distance = parseInt(vm.distance);
@@ -40,6 +39,7 @@
       var windCross = parseInt(vm.crosswind);
       var temperature = parseInt(vm.temperature);
 
+      // target is unreachable, exit.
       var trace = traceBullet(ammo, distance, angle, windHead, windCross, 45);
       if (trace[0] < 0) {
         vm.resultHorizontal = 0;
@@ -116,11 +116,13 @@
 
       var density = (273.15 + 20) / (273.15 + temperature);
 
-      angle *= Math.PI / 180;
-      angleTarget *= Math.PI / 180;
+      // convert degrees to radians
+      angle *= (Math.PI / 180);
+      angleTarget *= (Math.PI / 180);
 
-      var posTarget = [Math.cos(angleTarget) * distance, Math.sin(angleTarget) * distance];
-      var pos = [0, 0, 0];
+      // construct 2D location of target.
+      var posTarget = [Math.cos(angleTarget) * distance, Math.sin(angleTarget) * distance, 0];
+      var pos = [0,0,0];
       var additional = initSpeed * ((((temperature + 273.13) / 288.13 - 1) / 2.5 + 1 ) - 1);
       var velocity = [
         Math.cos(angle) * (initSpeed + additional),
@@ -128,6 +130,10 @@
         0
       ];
 
+      // Increase simulationStep to make overshooting less of an issue.
+      simulationStep = Math.min(simulationStep, 0.001);
+
+      // follow path of bullet
       var its = Math.floor(timeToLive / simulationStep);
       for (var i = 0; i < its; i++) {
         var velMag = vectorMagnitude(velocity);
@@ -159,6 +165,7 @@
 
         pos = vectorAdd(pos, vectorMultiply(velocity, simulationStep));
 
+        // bullet passed the target distance
         if (pos[0] >= posTarget[0]) {
           break;
         }
