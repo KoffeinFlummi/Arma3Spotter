@@ -22,7 +22,7 @@ grunt serve
 ```shell
 cd src
 grunt build
-grunt cordovaBuild
+grunt buildCordova
 ```
 
 
