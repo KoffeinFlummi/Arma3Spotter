@@ -13,7 +13,8 @@
   Config.$inject = ["$translateProvider"];
 
   function Config($translateProvider) {
-    $translateProvider.translations("en", {
+    $translateProvider
+      .translations("en", {
       SETTINGS: "Settings",
       SETTINGS_MOD: "Mod",
       SETTING_WEAPON: "Weapon",
@@ -28,9 +29,8 @@
       SPOTTER_CALCULATE: "Calculate",
       SPOTTER_HORIZONTAL: "Horizontal",
       SPOTTER_VERTICAL: "Vertical"
-    });
-
-    $translateProvider.translations("de", {
+    })
+      .translations("de", {
       SETTINGS: "Einstellungen",
       SETTINGS_MOD: "Mod",
       SETTING_WEAPON: "Waffe",
@@ -45,10 +45,16 @@
       SPOTTER_CALCULATE: "Berechnen",
       SPOTTER_HORIZONTAL: "Horizontal",
       SPOTTER_VERTICAL: "Vertikal"
-    });
-
-    //$translateProvider.preferredLanguage("de");
-    $translateProvider.determinePreferredLanguage();
+    })
+      .registerAvailableLanguageKeys(['en', 'de'], {
+        'en_US': 'en',
+        'en_UK': 'en',
+        'de_DE': 'de',
+        'de_AT': 'de',
+        'de_CH': 'de'
+      })
+      .determinePreferredLanguage()
+      .fallbackLanguage('en');
   }
 
 })();
