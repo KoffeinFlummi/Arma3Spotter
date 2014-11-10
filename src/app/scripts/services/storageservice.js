@@ -5,10 +5,6 @@
  * # StorageService
  * Service in the arma3SpotterApp.
  */
-angular.module("arma3SpotterApp")
-  .service("StorageService", function StorageService() {
-    // AngularJS will instantiate a singleton by calling "new" on this function
-  });
 
 (function() {
   "use strict";
