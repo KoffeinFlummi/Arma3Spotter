@@ -25,12 +25,12 @@
     <div class="col-md-12">
       <div id="settings" ng-controller="SettingsCtrl as Settings">
 
-        <h3>Settings</h3>
+        <h3 translate="SETTINGS"></h3>
         <form role="form">
           <div class="row">
             <div class="col-md-12">
               <div class="form-group">
-                <label for="mod">Mod</label>
+                <label for="mod" translate="SETTINGS_MOD"></label>
                 <select class="form-control" name="mod" id="mod"
                         ng-model="Settings.activeMod"
                         ng-options="mod for mod in Settings.mods"
@@ -42,7 +42,7 @@
           <div class="row">
             <div class="col-md-6">
               <div class="form-group">
-                <label for="weapon">Weapon</label>
+                <label for="weapon" translate="SETTING_WEAPON"></label>
                 <select class="form-control" name="weapon" id="weapon"
                         ng-model="Settings.activeWeapon"
                         ng-options="weapon.name for weapon in Settings.weapons"
@@ -52,7 +52,7 @@
             </div>
             <div class="col-md-6">
               <div class="form-group">
-                <label for="ammo">Ammo</label>
+                <label for="ammo" translate="SETTINGS_AMMO"></label>
                 <select class="form-control" name="ammo" id="ammo"
                         ng-model="Settings.activeAmmo"
                         ng-options="ammo.name for ammo in Settings.ammos"
@@ -61,7 +61,7 @@
               </div>
             </div>
           </div>
-          <button class="btn btn-primary" ng-click="Settings.saveConfig()">Save</button>
+          <button class="btn btn-primary" ng-click="Settings.saveConfig()" translate="SETTINGS_SAVE"></button>
         </form>
       </div>
     </div>
@@ -73,19 +73,19 @@
   <div class="row">
     <div class="col-md-12">
       <div id="calculator" ng-controller="CalculationCtrl as Calculation">
-        <h3>Spotter</h3>
+        <h3 translate="SPOTTER"></h3>
         <!-- Temperature, Windage (Head, Cross), Distance, Elevation -->
         <form name="calculationForm" role="form">
           <div class="row">
             <div class="col-md-6">
               <div class="form-group">
-                <label for="distance">Distance</label>
+                <label for="distance" translate="SPOTTER_DISTANCE"></label>
                 <input class="form-control" type="number" id="distance" name="distance" ng-model="Calculation.distance" min="0" required/>
               </div>
             </div>
             <div class="col-md-6">
               <div class="form-group">
-                <label for="angle">Angle</label>
+                <label for="angle" translate="SPOTTER_ANGLE"></label>
                 <input class="form-control" type="number" id="angle" name="angle" ng-model="Calculation.angle" min="-90" max="90" required/>
               </div>
             </div>
@@ -94,13 +94,13 @@
           <div class="row">
             <div class="col-md-6">
               <div class="form-group">
-                <label for="headwind">Headwind</label>
+                <label for="headwind" translate="SPOTTER_HEADWIND"></label>
                 <input class="form-control" type="number" id="headwind" name="headwind" ng-model="Calculation.headwind" step=0.01 required/>
               </div>
             </div>
             <div class="col-md-6">
               <div class="form-group">
-                <label for="crosswind">Crosswind</label>
+                <label for="crosswind" translate="SPOTTER_CROSSWIND"></label>
                 <input class="form-control"  type="number" id="crosswind" name="crosswind"  ng-model="Calculation.crosswind" step=0.01 required/>
               </div>
             </div>
@@ -109,22 +109,23 @@
           <div class="row">
             <div class="col-md-6">
               <div class="form-group">
-                <label for="temperature">Temperature</label>
+                <label for="temperature" translate="SPOTTER_TEMPERATURE"></label>
                 <input class="form-control" type="number" id="temperature" name="temperature" ng-model="Calculation.temperature" step=1 required/>
               </div>
             </div>
           </div>
 
-          <button class="btn btn-primary" ng-disabled="!calculationForm.$valid" ng-click="Calculation.calculate()">Calculate</button>
+          <button class="btn btn-primary" ng-disabled="!calculationForm.$valid" ng-click="Calculation.calculate()" translate="SPOTTER_CALCULATE"></button>
+
         </form>
 
         <div class="row">
           <div class="col-md-6">
-            <h2>Horizontal:
+            <h2><span translate="SPOTTER_HORIZONTAL"></span>:
             <span ng-bind="Calculation.resultHorizontal"></span></h2>
           </div>
           <div class="col-md-6">
-            <h2>Vertical:
+            <h2><span translate="SPOTTER_VERTICAL"></span>:
             <span ng-bind="Calculation.resultVertical"></span></h2>
           </div>
         </div>
@@ -167,11 +168,13 @@
 <script src="bower_components/angular-touch/angular-touch.js"></script>
 <script src="bower_components/angular-route/angular-route.js"></script>
 <script src="bower_components/lodash/dist/lodash.compat.js"></script>
+<script src="bower_components/angular-translate/angular-translate.js"></script>
 <!-- endbower -->
 <!-- endbuild -->
 
 <!-- build:js({.tmp,app}) scripts/scripts.js -->
 <script src="scripts/app.js"></script>
+<script src="scripts/config.js"></script>
 <script src="scripts/controllers/settings.js"></script>
 <script src="scripts/controllers/calculation.js"></script>
 <script src="scripts/services/dataservice.js"></script>
