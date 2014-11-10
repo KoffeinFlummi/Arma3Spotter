@@ -45,8 +45,8 @@
       SPOTTER_VERTICAL: "Vertikal"
     });
 
-    $translateProvider.preferredLanguage("de");
-    //$translateProvider.determinePreferredLanguage();
+    //$translateProvider.preferredLanguage("de");
+    $translateProvider.determinePreferredLanguage();
   }
 
 })();
