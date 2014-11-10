@@ -106,7 +106,17 @@
             </div>
           </div>
 
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group">
+                <label for="temperature" translate="SPOTTER_TEMPERATURE"></label>
+                <input class="form-control" type="number" id="temperature" name="temperature" ng-model="Calculation.temperature" step=1 required/>
+              </div>
+            </div>
+          </div>
+
           <button class="btn btn-primary" ng-disabled="!calculationForm.$valid" ng-click="Calculation.calculate()" translate="SPOTTER_CALCULATE"></button>
+
         </form>
 
         <div class="row">

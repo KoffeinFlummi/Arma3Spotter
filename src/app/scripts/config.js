@@ -24,6 +24,7 @@
       SPOTTER_ANGLE: "Angle",
       SPOTTER_HEADWIND: "Headwind",
       SPOTTER_CROSSWIND: "Crosswind",
+      SPOTTER_TEMPERATURE: "Temperature",
       SPOTTER_CALCULATE: "Calculate",
       SPOTTER_HORIZONTAL: "Horizontal",
       SPOTTER_VERTICAL: "Vertical"
@@ -40,6 +41,7 @@
       SPOTTER_ANGLE: "Winkel",
       SPOTTER_HEADWIND: "Gegenwind",
       SPOTTER_CROSSWIND: "Seitenwind",
+      SPOTTER_TEMPERATURE: "Temperatur",
       SPOTTER_CALCULATE: "Berechnen",
       SPOTTER_HORIZONTAL: "Horizontal",
       SPOTTER_VERTICAL: "Vertikal"
