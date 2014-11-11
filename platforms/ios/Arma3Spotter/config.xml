@@ -21,11 +21,12 @@
     </feature>
     <name>Arma3Spotter</name>
     <description>
-        A sample Apache Cordova application that responds to the deviceready event.
+        A webapp for calculating firing solutions using Arma 3 and AGM.
     </description>
-    <author email="dev@cordova.apache.org" href="http://cordova.io">
-        Apache Cordova Team
+    <author email="github@jonathandavid.de" href="https://github.com/KoffeinFlummi/Arma3Spotter">
+        AGM Team
     </author>
     <content src="index.html" />
     <access origin="*" />
+    <icon src="res/ios/icon.png" />
 </widget>

@@ -22,13 +22,13 @@
   <div id="wrapper" class="container">
 
     <div class="row">
-      <div class="col-md-12">
+      <div class="col-xs-12">
         <div id="settings" ng-controller="SettingsCtrl as Settings">
 
           <h3 translate="SETTINGS"></h3>
           <form role="form">
             <div class="row">
-              <div class="col-md-12">
+              <div class="col-xs-12">
                 <div class="form-group">
                   <label for="mod" translate="SETTINGS_MOD"></label>
                   <select class="form-control" name="mod" id="mod"
@@ -40,7 +40,7 @@
               </div>
             </div>
             <div class="row">
-              <div class="col-md-6">
+              <div class="col-xs-6">
                 <div class="form-group">
                   <label for="weapon" translate="SETTING_WEAPON"></label>
                   <select class="form-control" name="weapon" id="weapon"
@@ -50,7 +50,7 @@
                   </select>
                 </div>
               </div>
-              <div class="col-md-6">
+              <div class="col-xs-6">
                 <div class="form-group">
                   <label for="ammo" translate="SETTINGS_AMMO"></label>
                   <select class="form-control" name="ammo" id="ammo"
@@ -71,19 +71,19 @@
   <hr>
 
     <div class="row">
-      <div class="col-md-12">
+      <div class="col-xs-12">
         <div id="calculator" ng-controller="CalculationCtrl as Calculation">
           <h3 translate="SPOTTER"></h3>
           <!-- Temperature, Windage (Head, Cross), Distance, Elevation -->
           <form name="calculationForm" role="form">
             <div class="row">
-              <div class="col-md-6">
+              <div class="col-xs-6">
                 <div class="form-group">
                   <label for="distance" translate="SPOTTER_DISTANCE"></label>
                   <input class="form-control" type="number" id="distance" name="distance" ng-model="Calculation.distance" min="0" max="3000" required/>
                 </div>
               </div>
-              <div class="col-md-6">
+              <div class="col-xs-6">
                 <div class="form-group">
                   <label for="angle" translate="SPOTTER_ANGLE"></label>
                   <input class="form-control" type="number" id="angle" name="angle" ng-model="Calculation.angle" min="-90" max="90" required/>
@@ -92,13 +92,13 @@
             </div>
 
             <div class="row">
-              <div class="col-md-6">
+              <div class="col-xs-6">
                 <div class="form-group">
                   <label for="headwind" translate="SPOTTER_HEADWIND"></label>
                   <input class="form-control" type="number" id="headwind" name="headwind" ng-model="Calculation.headwind" min="-15" max="15" step="0.01" required/>
                 </div>
               </div>
-              <div class="col-md-6">
+              <div class="col-xs-6">
                 <div class="form-group">
                   <label for="crosswind" translate="SPOTTER_CROSSWIND"></label>
                   <input class="form-control"  type="number" id="crosswind" name="crosswind"  ng-model="Calculation.crosswind" min="-15" max="15" step="0.01" required/>
@@ -107,7 +107,7 @@
             </div>
 
             <div class="row">
-              <div class="col-md-6">
+              <div class="col-xs-6">
                 <div class="form-group">
                   <label for="temperature" translate="SPOTTER_TEMPERATURE"></label>
                   <input class="form-control" type="number" id="temperature" name="temperature" ng-model="Calculation.temperature" min="-50" max="50" step="0.1" required/>
@@ -120,13 +120,13 @@
           </form>
 
           <div class="row">
-            <div class="col-md-6">
-              <h2><span translate="SPOTTER_HORIZONTAL"></span>:
-              <span ng-bind="Calculation.resultHorizontal"></span></h2>
+            <div class="col-xs-6">
+              <h3><span translate="SPOTTER_HORIZONTAL"></span>:
+              <span ng-bind="Calculation.resultHorizontal"></span></h3>
             </div>
-            <div class="col-md-6">
-              <h2><span translate="SPOTTER_VERTICAL"></span>:
-              <span ng-bind="Calculation.resultVertical"></span></h2>
+            <div class="col-xs-6">
+              <h3><span translate="SPOTTER_VERTICAL"></span>:
+              <span ng-bind="Calculation.resultVertical"></span></h3>
             </div>
           </div>
 

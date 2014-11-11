@@ -11,3 +11,17 @@ https://developer.apple.com/icloud/documentation/data-storage/
 
 2014-11-10 20:43:13.209 Arma3Spotter[4536:106614] Resetting plugins due to page load.
 2014-11-10 20:43:13.742 Arma3Spotter[4536:106614] Finished load of: file:///Users/dajo/Library/Developer/CoreSimulator/Devices/F007FF76-589B-430E-B748-1AB5EA7A1869/data/Containers/Bundle/Application/64411F6F-FAF2-4260-9CDC-DC9A7589F816/Arma3Spotter.app/www/index.html
+2014-11-11 20:55:05.056 Arma3Spotter[8074:127548] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/dajo/Library/Developer/CoreSimulator/Devices/F007FF76-589B-430E-B748-1AB5EA7A1869/data/Containers/Data/Application/CB27FCD5-646B-4753-A74E-23C33B57AB33/Library/Cookies/Cookies.binarycookies
+2014-11-11 20:55:05.848 Arma3Spotter[8074:127548] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-11 20:55:05.849 Arma3Spotter[8074:127548] Multi-tasking -> Device: YES, App: YES
+2014-11-11 20:55:06.028 Arma3Spotter[8074:127548] Unlimited access to network resources
+2014-11-11 20:55:06.182 Arma3Spotter[8074:127548] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-11-11 20:55:14.512 Arma3Spotter[8074:127548] Resetting plugins due to page load.
+2014-11-11 20:55:16.863 Arma3Spotter[8074:127548] Finished load of: file:///Users/dajo/Library/Developer/CoreSimulator/Devices/F007FF76-589B-430E-B748-1AB5EA7A1869/data/Containers/Bundle/Application/CAD9655C-89AE-4CF6-8E09-53F35AD40C7B/Arma3Spotter.app/www/index.html
+2014-11-11 21:04:38.898 Arma3Spotter[8074:134146] Terminating since there is no system app.
