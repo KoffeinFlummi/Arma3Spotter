@@ -33,11 +33,11 @@
     function calculate() {
       var ammo = vm.Data.getActiveAmmo();
 
-      var distance = parseInt(vm.distance);
-      var angle = parseInt(vm.angle);
-      var windHead = parseInt(vm.headwind);
-      var windCross = parseInt(vm.crosswind);
-      var temperature = parseInt(vm.temperature);
+      var distance = Math.min(Math.max(parseInt(vm.distance), 1), 3000);;
+      var angle = Math.min(Math.max(parseInt(vm.angle), 0), 360);
+      var windHead = Math.min(Math.max(parseInt(vm.headwind), -15), 15);
+      var windCross = Math.min(Math.max(parseInt(vm.crosswind), -15), 15);
+      var temperature = Math.min(Math.max(parseInt(vm.temperature), -50), 50);
 
       // target is unreachable, exit.
       var trace = traceBullet(ammo, distance, angle, windHead, windCross, 45);
