@@ -49,6 +49,7 @@
       .registerAvailableLanguageKeys(['en', 'de'], {
         'en_US': 'en',
         'en_UK': 'en',
+        'en_GB': 'en',
         'de_DE': 'de',
         'de_AT': 'de',
         'de_CH': 'de'
