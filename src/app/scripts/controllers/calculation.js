@@ -120,6 +120,9 @@
       angle *= (Math.PI / 180);
       angleTarget *= (Math.PI / 180);
 
+      // invert head wind
+      windHead *= -1;
+
       // construct 2D location of target.
       var posTarget = [Math.cos(angleTarget) * distance, Math.sin(angleTarget) * distance, 0];
       var pos = [0,0,0];
