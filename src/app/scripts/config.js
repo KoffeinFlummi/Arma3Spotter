@@ -17,12 +17,14 @@
       .when("/", {
         templateUrl: "views/spotter.html",
         controller: "SpotterCtrl",
-        controllerAs: "Spotter"
+        controllerAs: "Spotter",
+        activeTab: "spotter"
       })
       .when("/settings", {
         templateUrl: "views/settings.html",
         controller: "SettingsCtrl",
-        controllerAs: "Settings"
+        controllerAs: "Settings",
+        activeTab: "settings"
       })
       .otherwise({
         redirectTo: "/"

@@ -20,9 +20,18 @@
   <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
   <![endif]-->
 
-  <a href="/">Spotter</a> | <a href="/#/settings">Settings</a>
-
   <div id="wrapper" class="container">
+
+    <header class="row" ng-controller="HeaderCtrl as Header">
+      <div class="col-xs-12">
+
+        <ul class="nav nav-pills">
+          <li role="presentation" ng-class="{active: Header.route.current.activeTab == 'spotter'}"><a ng-href="#">Spotter</a></li>
+          <li role="presentation" ng-class="{active: Header.route.current.activeTab == 'settings'}"><a  ng-href="#/settings">Settings</a></li>
+        </ul>
+
+      </div>
+    </header>
 
     <div ng-view=""></div>
 
@@ -72,6 +81,7 @@
   <script src="scripts/services/logger.js"></script>
   <script src="scripts/services/storageservice.js"></script>
   <script src="scripts/services/data.js"></script>
+  <script src="scripts/controllers/header.js"></script>
   <!-- endbuild -->
 </body>
 </html>
