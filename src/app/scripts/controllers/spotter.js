@@ -1,23 +1,20 @@
-"use strict";
-
 /**
  * @ngdoc function
- * @name arma3SpotterApp.controller:CalculationCtrl
+ * @name arma3SpotterApp.controller:SpotterCtrl
  * @description
- * # CalculationCtrl
+ * # SpotterCtrl
  * Controller of the arma3SpotterApp
  */
 
-
 (function () {
-
+  "use strict";
 
   angular.module("arma3SpotterApp")
-    .controller("CalculationCtrl", Calculation);
+    .controller("SpotterCtrl", Spotter);
 
-  Calculation.$inject = ["$scope", "Data"];
+  Spotter.$inject = ["Data"];
 
-  function Calculation($scope, Data) {
+  function Spotter(Data) {
     var vm = this;
 
     vm.angle = 0;
@@ -33,7 +30,7 @@
     function calculate() {
       var ammo = vm.Data.getActiveAmmo();
 
-      var distance = Math.min(Math.max(parseInt(vm.distance), 1), 3000);;
+      var distance = Math.min(Math.max(parseInt(vm.distance), 1), 3000);
       var angle = Math.min(Math.max(parseInt(vm.angle), 0), 360);
       var windHead = Math.min(Math.max(parseFloat(vm.headwind), -15), 15);
       var windCross = Math.min(Math.max(parseFloat(vm.crosswind), -15), 15);

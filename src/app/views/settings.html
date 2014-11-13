@@ -1,0 +1,46 @@
+<div class="row">
+  <div class="col-xs-12">
+    <!--<div id="settings" ng-controller="SettingsCtrl as Settings">-->
+    <div id="settings" ng-controller="SettingsCtrl as Settings">
+
+      <h3 translate="SETTINGS"></h3>
+      <form role="form">
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="form-group">
+              <label for="mod" translate="SETTINGS_MOD"></label>
+              <select class="form-control" name="mod" id="mod"
+                      ng-model="Settings.activeMod"
+                      ng-options="mod for mod in Settings.mods"
+                      ng-change="Settings.modChanged()">
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-6">
+            <div class="form-group">
+              <label for="weapon" translate="SETTING_WEAPON"></label>
+              <select class="form-control" name="weapon" id="weapon"
+                      ng-model="Settings.activeWeapon"
+                      ng-options="weapon.name for weapon in Settings.weapons"
+                      ng-change="Settings.weaponChanged()">
+              </select>
+            </div>
+          </div>
+          <div class="col-xs-6">
+            <div class="form-group">
+              <label for="ammo" translate="SETTINGS_AMMO"></label>
+              <select class="form-control" name="ammo" id="ammo"
+                      ng-model="Settings.activeAmmo"
+                      ng-options="ammo.name for ammo in Settings.ammos"
+                      ng-change="Settings.ammoChanged()">
+              </select>
+            </div>
+          </div>
+        </div>
+        <button class="btn btn-primary" ng-click="Settings.saveConfig()" translate="SETTINGS_SAVE"></button>
+      </form>
+    </div>
+  </div>
+</div>
