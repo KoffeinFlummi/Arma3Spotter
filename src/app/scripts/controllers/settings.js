@@ -1,5 +1,3 @@
-"use strict";
-
 /**
  * @ngdoc function
  * @name arma3SpotterApp.controller:SettingsCtrl
@@ -8,14 +6,15 @@
  * Controller of the arma3SpotterApp
  */
 
-(function(){
+(function (){
+  "use strict";
 
   angular.module("arma3SpotterApp")
     .controller("SettingsCtrl", Settings);
 
-  Settings.$inject = ["$scope", "DataService", "StorageService", "Data"];
+  Settings.$inject = ["DataService", "StorageService", "Data"];
 
-  function Settings($scope, DataService, StorageService, Data) {
+  function Settings(DataService, StorageService, Data) {
 
     var vm = this;
 
@@ -33,8 +32,8 @@
 
     // I"m too noobish to get this to work
     /*$scope.$watch("vm.activeMod", angular.bind(this, function(val,orig){
-      this.modChanged(val, orig);
-    }));*/
+     this.modChanged(val, orig);
+     }));*/
 
 
     init();
@@ -161,7 +160,7 @@
       StorageService.setItem("activeWeapon", vm.activeWeapon.name);
       StorageService.setItem("activeAmmo", vm.activeAmmo.name);
       /*StorageService.setItem("activeMod", vm.activeMod);
-      StorageService.setItem("activeMod", vm.activeMod);*/
+       StorageService.setItem("activeMod", vm.activeMod);*/
     }
   }
 
