@@ -6,7 +6,7 @@ bower_components
 .idea
 npm-debug.log
 Thumbs.db
-.log
+*.log
 .DS_Store
 .AppleDouble
 .LSOverride
