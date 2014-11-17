@@ -369,10 +369,10 @@ module.exports = function (grunt) {
         options: {
           command: ["build"],
           platforms: ["ios", "android"],
-          plugins: [/*"device","dialogs"*/],
+          plugins: ["globalization"],
           path: "../.",
           id: "com.agmmod.arma3spotter",
-          name: "Arma3Spotter"
+          name: "Spotter"
         }
       },
       buildiOS: {
@@ -428,7 +428,7 @@ module.exports = function (grunt) {
     "concat",
     "ngAnnotate",
     "copy:dist",
-    "cdnify",
+    //"cdnify",
     "cssmin",
     "uglify",
     "filerev",
