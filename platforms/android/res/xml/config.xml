@@ -1,13 +1,22 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.agmmod.arma3spotter" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <preference name="loglevel" value="DEBUG" />
-    <name>Arma3Spotter</name>
+    <feature name="Globalization">
+        <param name="android-package" value="org.apache.cordova.globalization.Globalization" />
+    </feature>
+    <icon density="ldpi" src="res/android/drawable-ldpi/ic_launcher.png" />
+    <icon density="mdpi" src="res/android/drawable-mdpi/ic_launcher.png" />
+    <icon density="hdpi" src="res/android/drawable-hdpi/ic_launcher.png" />
+    <icon density="xhdpi" src="res/android/drawable-xhdpi/ic_launcher.png" />
+    <icon density="xxhdpi" src="res/android/drawable-xxhdpi/ic_launcher.png" />
+    <icon density="xxxhdpi" src="res/android/drawable-xxxhdpi/ic_launcher.png" />
+    <name>Spotter</name>
     <description>
-        A webapp for calculating firing solutions using Arma 3 and AGM.
-    </description>
+    A webapp for calculating firing solutions using Arma 3 and AGM.
+  </description>
     <author email="github@jonathandavid.de" href="https://github.com/KoffeinFlummi/Arma3Spotter">
-        AGM Team
-    </author>
+    AGM Team
+  </author>
     <content src="index.html" />
     <access origin="*" />
     <icon src="res/ios/icon.png" />

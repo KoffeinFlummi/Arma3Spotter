@@ -25,3 +25,29 @@ https://developer.apple.com/icloud/documentation/data-storage/
 2014-11-11 20:55:14.512 Arma3Spotter[8074:127548] Resetting plugins due to page load.
 2014-11-11 20:55:16.863 Arma3Spotter[8074:127548] Finished load of: file:///Users/dajo/Library/Developer/CoreSimulator/Devices/F007FF76-589B-430E-B748-1AB5EA7A1869/data/Containers/Bundle/Application/CAD9655C-89AE-4CF6-8E09-53F35AD40C7B/Arma3Spotter.app/www/index.html
 2014-11-11 21:04:38.898 Arma3Spotter[8074:134146] Terminating since there is no system app.
+2014-11-15 07:42:03.759 Arma3Spotter[1685:49393] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/dajo/Library/Developer/CoreSimulator/Devices/F007FF76-589B-430E-B748-1AB5EA7A1869/data/Containers/Data/Application/DA63D973-EF6E-4AFB-B222-C3E289BADCCF/Library/Cookies/Cookies.binarycookies
+2014-11-15 07:42:03.932 Arma3Spotter[1685:49393] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-15 07:42:03.933 Arma3Spotter[1685:49393] Multi-tasking -> Device: YES, App: YES
+2014-11-15 07:42:03.980 Arma3Spotter[1685:49393] Unlimited access to network resources
+2014-11-15 07:42:04.004 Arma3Spotter[1685:49393] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-11-15 07:42:06.966 Arma3Spotter[1685:49393] Resetting plugins due to page load.
+2014-11-15 07:42:07.617 Arma3Spotter[1685:49393] Finished load of: file:///Users/dajo/Library/Developer/CoreSimulator/Devices/F007FF76-589B-430E-B748-1AB5EA7A1869/data/Containers/Bundle/Application/78290759-CB66-487C-A098-C8F146987DFF/Arma3Spotter.app/www/index.html#/
+2014-11-15 12:07:29.614 Spotter[1526:21439] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/dajo/Library/Developer/CoreSimulator/Devices/F007FF76-589B-430E-B748-1AB5EA7A1869/data/Containers/Data/Application/16E87B1A-4234-4795-9716-C0706385AEFE/Library/Cookies/Cookies.binarycookies
+2014-11-15 12:07:30.008 Spotter[1526:21439] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-15 12:07:30.009 Spotter[1526:21439] Multi-tasking -> Device: YES, App: YES
+2014-11-15 12:07:30.073 Spotter[1526:21439] Unlimited access to network resources
+2014-11-15 12:07:30.077 Spotter[1526:21439] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-11-15 12:07:32.853 Spotter[1526:21439] Resetting plugins due to page load.
+2014-11-15 12:07:33.313 Spotter[1526:21439] Finished load of: file:///Users/dajo/Library/Developer/CoreSimulator/Devices/F007FF76-589B-430E-B748-1AB5EA7A1869/data/Containers/Bundle/Application/38A16D35-FB72-4B33-BFA4-36E5E969F30B/Spotter.app/www/index.html#/

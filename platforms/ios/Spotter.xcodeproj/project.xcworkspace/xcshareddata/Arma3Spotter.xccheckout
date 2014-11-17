@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>03EC86E7-A155-47E7-A353-EE2EAE0D94C1</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Arma3Spotter</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>9994B8D81C511449A7489B1FCCAD8F80E17EE9CD</key>
+		<string>https://github.com/KoffeinFlummi/Arma3Spotter.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>platforms/ios/Arma3Spotter.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>9994B8D81C511449A7489B1FCCAD8F80E17EE9CD</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/KoffeinFlummi/Arma3Spotter.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>9994B8D81C511449A7489B1FCCAD8F80E17EE9CD</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>9994B8D81C511449A7489B1FCCAD8F80E17EE9CD</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Arma3Spotter</string>
+		</dict>
+	</array>
+</dict>
+</plist>
