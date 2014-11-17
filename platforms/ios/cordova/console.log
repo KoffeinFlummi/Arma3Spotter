@@ -51,3 +51,48 @@ https://developer.apple.com/icloud/documentation/data-storage/
 
 2014-11-15 12:07:32.853 Spotter[1526:21439] Resetting plugins due to page load.
 2014-11-15 12:07:33.313 Spotter[1526:21439] Finished load of: file:///Users/dajo/Library/Developer/CoreSimulator/Devices/F007FF76-589B-430E-B748-1AB5EA7A1869/data/Containers/Bundle/Application/38A16D35-FB72-4B33-BFA4-36E5E969F30B/Spotter.app/www/index.html#/
+2014-11-17 08:28:27.672 Spotter[6318:49155] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/dajo/Library/Developer/CoreSimulator/Devices/F007FF76-589B-430E-B748-1AB5EA7A1869/data/Containers/Data/Application/5C0BDD16-4C9D-45C5-B4E2-ACB57D3C5EDB/Library/Cookies/Cookies.binarycookies
+2014-11-17 08:28:28.114 Spotter[6318:49155] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-17 08:28:28.115 Spotter[6318:49155] Multi-tasking -> Device: YES, App: YES
+2014-11-17 08:28:28.133 Spotter[6318:49155] Unlimited access to network resources
+2014-11-17 08:28:28.145 Spotter[6318:49155] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-11-17 08:28:29.595 Spotter[6318:49155] Resetting plugins due to page load.
+2014-11-17 08:28:29.990 Spotter[6318:49155] Finished load of: file:///Users/dajo/Library/Developer/CoreSimulator/Devices/F007FF76-589B-430E-B748-1AB5EA7A1869/data/Containers/Bundle/Application/9A41B1C7-E2A6-4CB3-BC6F-91C1DDA2B565/Spotter.app/www/index.html#/
+2014-11-17 08:29:16.536 Spotter[6318:49155] log1
+2014-11-17 08:30:24.206 Spotter[6318:49155] log1
+2014-11-17 08:30:24.287 Spotter[6318:49155] *** WebKit discarded an uncaught exception in the webView:decidePolicyForNavigationAction:request:frame:decisionListener: delegate: <NSRangeException> *** -[__NSCFString substringFromIndex:]: Index 2147483647 out of bounds; string length 2
+2014-11-17 08:46:13.577 Spotter[792:6027] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/dajo/Library/Developer/CoreSimulator/Devices/F007FF76-589B-430E-B748-1AB5EA7A1869/data/Containers/Data/Application/816B590B-45B7-44D0-B7F9-E8AA38186C4F/Library/Cookies/Cookies.binarycookies
+2014-11-17 08:46:13.722 Spotter[792:6027] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-17 08:46:13.722 Spotter[792:6027] Multi-tasking -> Device: YES, App: YES
+2014-11-17 08:46:13.760 Spotter[792:6027] Unlimited access to network resources
+2014-11-17 08:46:13.779 Spotter[792:6027] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-11-17 08:46:15.302 Spotter[792:6027] Resetting plugins due to page load.
+2014-11-17 08:46:15.708 Spotter[792:6027] Finished load of: file:///Users/dajo/Library/Developer/CoreSimulator/Devices/F007FF76-589B-430E-B748-1AB5EA7A1869/data/Containers/Bundle/Application/3E4C4345-0D8A-4E7A-B293-8132F4E9784E/Spotter.app/www/index.html#/
+2014-11-17 08:46:26.990 Spotter[792:6027] log1
+2014-11-17 08:47:24.257 Spotter[792:6027] log1
+2014-11-17 08:51:46.615 Spotter[673:4698] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/dajo/Library/Developer/CoreSimulator/Devices/F007FF76-589B-430E-B748-1AB5EA7A1869/data/Containers/Data/Application/FD967FD9-916C-4511-87E0-D7F2C1C3B36E/Library/Cookies/Cookies.binarycookies
+2014-11-17 08:51:46.781 Spotter[673:4698] Apache Cordova native platform version 3.6.3 is starting.
+2014-11-17 08:51:46.782 Spotter[673:4698] Multi-tasking -> Device: YES, App: YES
+2014-11-17 08:51:46.980 Spotter[673:4698] Unlimited access to network resources
+2014-11-17 08:51:47.001 Spotter[673:4698] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-11-17 08:51:51.377 Spotter[673:4698] Resetting plugins due to page load.
+2014-11-17 08:51:52.071 Spotter[673:4698] Finished load of: file:///Users/dajo/Library/Developer/CoreSimulator/Devices/F007FF76-589B-430E-B748-1AB5EA7A1869/data/Containers/Bundle/Application/DF434AB2-007F-4BA6-950C-B569FB6EC8D5/Spotter.app/www/index.html#/
+2014-11-17 08:52:04.029 Spotter[673:4698] log1
