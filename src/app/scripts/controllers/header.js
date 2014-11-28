@@ -5,17 +5,6 @@
  * # HeaderCtrl
  * Controller of the arma3SpotterApp
  */
-/*
-angular.module('arma3SpotterApp')
-  .controller('HeaderCtrl', function ($scope) {
-    $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
-  });
-*/
-
 
 (function (){
   "use strict";

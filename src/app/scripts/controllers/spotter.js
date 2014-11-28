@@ -12,11 +12,13 @@
   angular.module("arma3SpotterApp")
     .controller("SpotterCtrl", Spotter);
 
-  Spotter.$inject = ["Data"];
+  Spotter.$inject = ["Data", "logger"];
 
-  function Spotter(Data) {
+  function Spotter(Data, logger) {
     var vm = this;
 
+    vm.activeAmmo = {};
+    vm.activeWeapon = {};
     vm.angle = 0;
     vm.calculate = calculate;
     vm.crosswind = 0;
@@ -27,7 +29,22 @@
     vm.resultHorizontal = 0;
     vm.resultVertical = 0;
 
+    init();
+
+    function init() {
+      vm.activeAmmo = vm.Data.getActiveAmmo();
+      vm.activeWeapon = vm.Data.getActiveWeapon();
+      if (!vm.activeAmmo) { logger.logError("activeAmmo not set. No weapon has been selected."); }
+      if (!vm.activeWeapon) { logger.logError("activeWeapon not set. No weapon has been selected."); }
+    }
+
     function calculate() {
+
+      if (!vm.activeAmmo) {
+        alert("No weapon has been selected. Please navigate to 'Settings' and select a weapon.");
+        return;
+      }
+
       var ammo = vm.Data.getActiveAmmo();
 
       var distance = Math.min(Math.max(parseInt(vm.distance), 1), 3000);

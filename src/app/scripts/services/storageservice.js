@@ -15,7 +15,7 @@
 
   //StorageService.$inject = ["logger"];
 
-  function StorageService(/*logger*/) {
+  function StorageService() {
     // Service logic
     function getItem(key) {
       if (!key || key === "") {throw new Error("StorageService.getItem: Key is empty!");}

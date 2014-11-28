@@ -41,8 +41,10 @@
         "de_AT": "de",
         "de_CH": "de"
       })
-      .determinePreferredLanguage()
-      .fallbackLanguage("en");
+      .preferredLanguage("en");
+      //.determinePreferredLanguage()
+      //.fallbackLanguage("en");
+
   }
 
   var transDe = {

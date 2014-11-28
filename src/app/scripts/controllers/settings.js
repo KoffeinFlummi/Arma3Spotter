@@ -83,13 +83,13 @@
 
     function setActiveAmmo() {
       var activeAmmo = StorageService.getItem("activeAmmo");
-      if (!activeAmmo || activeAmmo === "") {
+      if (!activeAmmo) {
         vm.activeAmmo = vm.ammos[0];
       } else {
         var foundAmmo = false;
 
         for (var i = 0; i < vm.ammos.length; i++) {
-          if (vm.ammos[i].name === activeAmmo) {
+          if (vm.ammos[i].name === activeAmmo.name) {
             vm.activeAmmo = vm.ammos[i];
             foundAmmo = true;
             break;
@@ -122,14 +122,14 @@
 
     function setActiveWeapon() {
       var activeWeapon = StorageService.getItem("activeWeapon");
-      if (!activeWeapon || activeWeapon === "") {
+      if (!activeWeapon) {
         vm.activeWeapon = vm.weapons[0];
       } else {
 
         var foundWeapon = false;
 
         for (var i = 0; i < vm.weapons.length; i++) {
-          if (vm.weapons[i].name === activeWeapon) {
+          if (vm.weapons[i].name === activeWeapon.name) {
             vm.activeWeapon = vm.weapons[i];
             foundWeapon = true;
             break;
@@ -157,8 +157,8 @@
     function saveConfig() {
       // save the config in localStorage
       StorageService.setItem("activeMod", vm.activeMod);
-      StorageService.setItem("activeWeapon", vm.activeWeapon.name);
-      StorageService.setItem("activeAmmo", vm.activeAmmo.name);
+      StorageService.setItem("activeWeapon", vm.activeWeapon);
+      StorageService.setItem("activeAmmo", vm.activeAmmo);
       /*StorageService.setItem("activeMod", vm.activeMod);
        StorageService.setItem("activeMod", vm.activeMod);*/
     }
