@@ -1,4 +1,12 @@
 body {
-  //background-color: $backgroundColor;
-  padding-top: 10px;
+  background-color: $backgroundColor;
+  background-image: url(../images/bg.jpg);
+}
+
+.container {
+    @include container();
+}
+
+#contentWrapper {
+    @include span(12 of 12);
 }

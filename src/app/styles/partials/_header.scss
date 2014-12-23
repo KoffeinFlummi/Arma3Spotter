@@ -1,0 +1,34 @@
+header {
+    width: 100%;
+    color: $secondaryColor;
+    border: 0.5rem solid $primaryColor;
+    margin-bottom: 1rem;
+
+    ul {
+        @include clearfix();
+        width: 100%;
+        height: 100%;
+    }
+
+    li {
+        width: 50%;
+        height: 100%;
+        float: left;
+
+        a {
+            background-color: $primaryColor;
+            display: block;
+            width: 100%;
+            height: 100%;
+            color: $secondaryColor;
+            text-decoration: none;
+            text-align: center;
+            padding: 0.25rem;
+        }
+
+        &.active a {
+            background-color: transparent;
+            color: $primaryColor;
+        }
+    }
+}

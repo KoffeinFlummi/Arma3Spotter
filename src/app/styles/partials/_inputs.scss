@@ -1,8 +1,26 @@
+form {
+    margin: 1rem 0;
+}
+
+input, select {
+    background-color: transparent;
+    border: 1px solid black;
+    border-style: none none solid none;
+    text-align: right;
+}
+
 input {
   &.ng-invalid {
-    border: 1px solid red;
+    border-color: red;
   }
   &.ng-valid {
-    border: 1px solid green;
+    border-color: green;
   }
+}
+
+button {
+    background-color: $primaryColor;
+    color: $secondaryColor;
+    border: none;
+    padding: 0.5rem;
 }
