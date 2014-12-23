@@ -1,1 +1,16 @@
+@import "compass";
+@import "compass/reset";
+@import "susy";
+//@import "breakpoint";
+
+$susy: (
+  columns: 12,
+  column-width: 4em,
+  gutters: 1/4,
+  math: fluid,
+  output: float,
+  gutter-position: inside-static,
+  debug: (image: show)
+);
+
 $backgroundColor: red;
