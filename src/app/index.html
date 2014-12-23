@@ -8,7 +8,6 @@
   <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
   <!-- build:css(.) styles/vendor.css -->
   <!-- bower:css -->
-  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
   <!-- endbower -->
   <!-- endbuild -->
   <!-- build:css(.tmp) styles/main.css -->
@@ -25,14 +24,12 @@
   <div id="wrapper" class="container">
 
     <header class="row" ng-controller="HeaderCtrl as Header">
-      <div class="col-xs-12">
-
-        <ul class="nav nav-pills">
-          <li role="presentation" ng-class="{active: Header.route.current.activeTab == 'spotter'}"><a ng-href="#/">Spotter</a></li>
-          <li role="presentation" ng-class="{active: Header.route.current.activeTab == 'settings'}"><a ng-href="#/settings">Settings</a></li>
-        </ul>
-
-      </div>
+        <nav>
+          <ul>
+            <li role="presentation" ng-class="{active: Header.route.current.activeTab == 'spotter'}"><a ng-href="#/">Spotter</a></li>
+            <li role="presentation" ng-class="{active: Header.route.current.activeTab == 'settings'}"><a ng-href="#/settings">Settings</a></li>
+          </ul>
+        </nav>
     </header>
 
     <div ng-view=""></div>
@@ -60,15 +57,15 @@
 
   <!-- build:js(.) scripts/vendor.js -->
   <!-- bower:js -->
-  <script src="bower_components/jquery/dist/jquery.js"></script>
   <script src="bower_components/angular/angular.js"></script>
-  <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
-  <script src="bower_components/angular-resource/angular-resource.js"></script>
-  <script src="bower_components/angular-cookies/angular-cookies.js"></script>
-  <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
   <script src="bower_components/angular-animate/angular-animate.js"></script>
-  <script src="bower_components/angular-touch/angular-touch.js"></script>
+  <script src="bower_components/angular-aria/angular-aria.js"></script>
+  <script src="bower_components/angular-cookies/angular-cookies.js"></script>
+  <script src="bower_components/angular-messages/angular-messages.js"></script>
+  <script src="bower_components/angular-resource/angular-resource.js"></script>
   <script src="bower_components/angular-route/angular-route.js"></script>
+  <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
+  <script src="bower_components/angular-touch/angular-touch.js"></script>
   <script src="bower_components/lodash/dist/lodash.compat.js"></script>
   <script src="bower_components/angular-translate/angular-translate.js"></script>
   <!-- endbower -->
