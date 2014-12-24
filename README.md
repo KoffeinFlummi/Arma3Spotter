@@ -28,6 +28,8 @@ grunt buildCordova
 
 ### Preview
 
+Note: Be warned, this is the development version. Not everything might work.
+(It's developed mobile-first, so it might look better on a smartphone)
 http://koffeinflummi.github.io/Arma3Spotter/
 
 ![preview](https://cloud.githubusercontent.com/assets/1235520/5546900/d590a300-8b4d-11e4-8c55-f735955e6456.PNG)
