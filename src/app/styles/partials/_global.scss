@@ -10,16 +10,25 @@ body {
 }
 
 .container {
-  height: 100%;
   @include container();
 }
 
+#wrapper {
+  height: 100%;
+}
+
 #contentWrapper {
+  padding-top:$headerHeight;
   @include span(12 of 12);
-  padding-top: 1rem;
+  height: 100%;
+  overflow-y: auto;
   -webkit-overflow-scrolling: touch;
 }
 
 #contentWrapper * {
   -webkit-transform: translate3d(0,0,0);
+}
+
+.content {
+  padding: 0.5rem 0;
 }

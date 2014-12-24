@@ -17,9 +17,11 @@ $susy: (
 @include border-box-sizing;
 
 $backgroundColor: #d3e4ba;
-$primaryColor: black;
+$primaryColor: #090909;
 $secondaryColor: $backgroundColor;
 
 $fontSize: 18px;
 $font: "PT Sans";
 @include font-face($font, font-files("PTS55F-webfont.woff", "PTS55F-webfont.ttf", "PTS55F-webfont.svg"), "PTS55F-webfont.eot");
+
+$headerHeight: 50px;

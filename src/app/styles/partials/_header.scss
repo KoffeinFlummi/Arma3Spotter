@@ -1,7 +1,12 @@
 header {
+  position: fixed;
+  z-index: 10;
+  height: $headerHeight;
   width: 100%;
   color: $secondaryColor;
   border: 0.5rem solid $primaryColor;
+  background-color: $backgroundColor;
+  background-image: url(../images/bg.jpg);
 
   ul {
     @include clearfix();
