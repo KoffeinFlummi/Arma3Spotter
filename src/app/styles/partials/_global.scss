@@ -1,12 +1,25 @@
+html, body {
+  height: 100%;
+  overflow: hidden;
+}
+
 body {
   background-color: $backgroundColor;
   background-image: url(../images/bg.jpg);
+  box-shadow: inset 0 0px 7px 1px rgba(0,0,0,0.8);
 }
 
 .container {
-    @include container();
+  height: 100%;
+  @include container();
 }
 
 #contentWrapper {
-    @include span(12 of 12);
+  @include span(12 of 12);
+  padding-top: 1rem;
+  -webkit-overflow-scrolling: touch;
+}
+
+#contentWrapper * {
+  -webkit-transform: translate3d(0,0,0);
 }

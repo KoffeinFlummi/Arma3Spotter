@@ -1,34 +1,34 @@
 <div id="settings">
-<!--<div id="settings" ng-controller="SettingsCtrl as Settings">-->
 
   <h3 translate="SETTINGS"></h3>
+
   <form role="form">
-    <label for="mod" translate="SETTINGS_MOD"></label>
-    <select name="mod" id="mod"
+    <div class="control-group">
+      <label class="short" for="mod" translate="SETTINGS_MOD"></label>
+      <select class="long" name="mod" id="mod"
             ng-model="Settings.activeMod"
             ng-options="mod for mod in Settings.mods"
             ng-change="Settings.modChanged()">
     </select>
+    </div>
 
-    <br />
-
-    <label for="weapon" translate="SETTING_WEAPON"></label>
-    <select name="weapon" id="weapon"
+    <div class="control-group">
+      <label class="short" for="weapon" translate="SETTING_WEAPON"></label>
+      <select class="long"  name="weapon" id="weapon"
             ng-model="Settings.activeWeapon"
             ng-options="weapon.name for weapon in Settings.weapons"
             ng-change="Settings.weaponChanged()">
     </select>
+    </div>
 
-    <br />
-
-    <label for="ammo" translate="SETTINGS_AMMO"></label>
-    <select name="ammo" id="ammo"
+    <div class="control-group">
+      <label class="short" for="ammo" translate="SETTINGS_AMMO"></label>
+      <select class="long" name="ammo" id="ammo"
             ng-model="Settings.activeAmmo"
             ng-options="ammo.name for ammo in Settings.ammos"
             ng-change="Settings.ammoChanged()">
     </select>
-
-    <br />
+    </div>
 
     <button ng-click="Settings.saveConfig()" translate="SETTINGS_SAVE"></button>
   </form>

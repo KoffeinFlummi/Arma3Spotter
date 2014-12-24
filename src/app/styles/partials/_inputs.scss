@@ -1,12 +1,14 @@
 form {
-    margin: 1rem 0;
+  margin: 1rem 0;
 }
 
 input, select {
-    background-color: transparent;
-    border: 1px solid black;
-    border-style: none none solid none;
-    text-align: right;
+  -webkit-appearance: none;
+  border-radius: 0;
+  background-color: transparent;
+  border: 1px solid black;
+  border-style: none none solid none;
+  padding: 0 0.25rem;
 }
 
 input {
@@ -19,8 +21,34 @@ input {
 }
 
 button {
-    background-color: $primaryColor;
-    color: $secondaryColor;
-    border: none;
-    padding: 0.5rem;
+  background-color: $primaryColor;
+  color: $secondaryColor;
+  border: none;
+  padding: 0.5rem;
+
+  &:active {
+    background-color: $secondaryColor;
+    color: $primaryColor;
+  }
+}
+
+.control-group {
+  @include span(12 nest);
+  margin-bottom: 1rem;
+
+  label {
+    @include span(5 of 12 nest);
+    padding-top: 2px;
+
+    &.short {
+      @include span(3 of 12 nest);
+    }
+  }
+  input, select {
+    @include span(7 of 12 nest);
+    &.long {
+      @include span(9 of 12 nest);
+    }
+  }
+
 }

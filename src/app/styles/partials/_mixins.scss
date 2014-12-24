@@ -1,3 +1,7 @@
 @mixin fontFamily() {
-    font-family: $font, Roboto sans-serif;
+  font-family: $font, Roboto, sans-serif;
+}
+
+@mixin pullRight() {
+  float: right;
 }
