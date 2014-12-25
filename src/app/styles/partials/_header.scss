@@ -35,4 +35,8 @@ header {
       color: $primaryColor;
     }
   }
+
+  @include breakpoint($large-up) {
+    width: $nukaInnerWidth;
+  }
 }

@@ -1,7 +1,7 @@
 @import "compass";
 @import "compass/reset";
 @import "susy";
-//@import "breakpoint";
+@import "breakpoint";
 
 $susy: (
   columns: 12,
@@ -25,3 +25,17 @@ $font: "PT Sans";
 @include font-face($font, font-files("PTS55F-webfont.woff", "PTS55F-webfont.ttf", "PTS55F-webfont.svg"), "PTS55F-webfont.eot");
 
 $headerHeight: 50px;
+
+$nukaInnerWidth: 349px;
+$nukaInnerHeight: 579px;
+$nukaTopStart: 121px;
+
+// breakpoints
+$small: 640px;
+$small-only: 0px $small;
+$medium: 1024px;
+$medium-up: ($small + 1px);
+$medium-only: ($small + 1px) $medium;
+$large: 1440px;
+$large-up: ($medium + 1px);
+$large-only: ($medium + 1px) $large;
