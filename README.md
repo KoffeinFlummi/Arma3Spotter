@@ -35,3 +35,9 @@ http://koffeinflummi.github.io/Arma3Spotter/
 
 ![preview](https://cloud.githubusercontent.com/assets/1235520/5546924/456743f0-8b4e-11e4-9556-c0c96a17729f.jpg)
 
+
+### Adding More Weapons/Mods
+
+If one of the mods you play with isn't included or has outdated data, you can help by adding it! There's an [export script](https://www.github.com/KoffeinFlummi/Arma3Spotter/blob/master/export.sqf) included, which - when run while holding the weapon you want to add - will copy the relevant data and further instructions to your clipboard.
+
+Then you just have to create a pull request with your changes.
