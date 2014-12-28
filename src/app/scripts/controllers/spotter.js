@@ -48,7 +48,7 @@
       var ammo = vm.Data.getActiveAmmo();
 
       var distance = Math.min(Math.max(parseInt(vm.distance), 1), 3000);
-      var angle = Math.min(Math.max(parseInt(vm.angle), -45), 45);
+      var angle = Math.min(Math.max(parseInt(vm.angle), -80), 80);
       var windHead = Math.min(Math.max(parseFloat(vm.headwind), -15), 15);
       var windCross = Math.min(Math.max(parseFloat(vm.crosswind), -15), 15);
       var temperature = Math.min(Math.max(parseFloat(vm.temperature), -50), 50);
