@@ -3,10 +3,6 @@ html, body {
   overflow: hidden;
 }
 
-body {
-
-}
-
 .container {
   @include container();
 }
@@ -29,7 +25,7 @@ body {
 #outerWrapper {
   background-color: $backgroundColor;
   background-image: url(../images/bg.jpg);
-  box-shadow: inset 0 0px 7px 1px rgba(0,0,0,0.8);
+  box-shadow: inset 0 0 7px 1px rgba(0,0,0,0.8);
 
   @include breakpoint($large-up) {
     position: absolute;
@@ -44,7 +40,7 @@ body {
 }
 
 #contentWrapper {
-  padding-top:$headerHeight;
+  padding-top: $headerHeight;
   @include span(12 of 12);
   height: 100%;
   overflow-y: auto;

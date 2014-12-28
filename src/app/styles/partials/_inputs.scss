@@ -30,6 +30,10 @@ button {
     background-color: $secondaryColor;
     color: $primaryColor;
   }
+
+  &:disabled {
+    background-color: #777;
+  }
 }
 
 .control-group {

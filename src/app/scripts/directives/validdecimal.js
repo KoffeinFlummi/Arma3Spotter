@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 /**
  * @ngdoc directive
@@ -7,13 +7,13 @@
  * # validDecimal
  */
 angular
-  .module('arma3SpotterApp')
-  .directive('validDecimal', validDecimal);
+  .module("arma3SpotterApp")
+  .directive("validDecimal", validDecimal);
 
 function validDecimal() {
   var directive = {
     require: "?ngModel",
-    restrict: 'A',
+    restrict: "A",
     link: link
   };
   return directive;
@@ -26,11 +26,18 @@ function validDecimal() {
 
     ngModelCtrl.$parsers.push(function(val) {
       if (angular.isUndefined(val)) {
-        var val = '';
+        val = "";
       }
+
+      var isClean = false;
 
       var floatValue = parseFloat(val);
 
+      if (_.isNumber(floatValue) && !_.isNaN(floatValue)) {
+        isClean = true;
+      }
+
+/*
       if (_.last(val) === ".") {
         floatValue = val;
       } else if (_.isNumber(floatValue) && !_.isNaN(floatValue)) {
@@ -52,10 +59,13 @@ function validDecimal() {
       } else {
         floatValue = 0;
       }
+*/
+
+
 
       var clean = floatValue.toString();
 
-      if (val !== clean  ) {
+      if (val !== clean && !isClean ) {
         ngModelCtrl.$setViewValue(clean);
         ngModelCtrl.$render();
       }
