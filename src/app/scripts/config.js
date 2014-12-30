@@ -13,6 +13,14 @@
 
   function Config($translateProvider, $routeProvider) {
 
+    var version = "0.1.0";
+
+    var dataVersion = localStorage.getItem("version");
+    if ((!!dataVersion && dataVersion != version) || (!dataVersion) ) {
+      localStorage.clear();
+      localStorage.setItem("version", version);
+    }
+
     $routeProvider
       .when("/", {
         templateUrl: "views/spotter.html",
