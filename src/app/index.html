@@ -3,7 +3,10 @@
 <head>
   <meta charset="utf-8">
   <title>Arma3Spotter</title>
-  <meta name="description" content="">
+  <meta name="description" content="A webapp for calculating firing solutions using Arma 3 and AGM">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <link rel="apple-touch-icon" href="./apple-touch-icon.png">
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
   <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
   <!-- build:css(.) styles/vendor.css -->
@@ -22,7 +25,7 @@
   <![endif]-->
 
   <div id="outerWrapper">
-
+    <div id="shadow"></div>
     <header ng-controller="HeaderCtrl as Header">
       <nav>
         <ul>
