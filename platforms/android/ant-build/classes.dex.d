@@ -1,11 +1,11 @@
 /Users/dajo/Development/git/Arma3Spotter/platforms/android/ant-build/classes.dex : \
-/Users/dajo/Development/git/Arma3Spotter/platforms/android/ant-build/classes/com/agmmod/arma3spotter/BuildConfig.class \
-/Users/dajo/Development/git/Arma3Spotter/platforms/android/ant-build/classes/com/agmmod/arma3spotter/CordovaApp.class \
-/Users/dajo/Development/git/Arma3Spotter/platforms/android/ant-build/classes/com/agmmod/arma3spotter/R$attr.class \
-/Users/dajo/Development/git/Arma3Spotter/platforms/android/ant-build/classes/com/agmmod/arma3spotter/R$drawable.class \
-/Users/dajo/Development/git/Arma3Spotter/platforms/android/ant-build/classes/com/agmmod/arma3spotter/R$string.class \
-/Users/dajo/Development/git/Arma3Spotter/platforms/android/ant-build/classes/com/agmmod/arma3spotter/R$xml.class \
-/Users/dajo/Development/git/Arma3Spotter/platforms/android/ant-build/classes/com/agmmod/arma3spotter/R.class \
+/Users/dajo/Development/git/Arma3Spotter/platforms/android/ant-build/classes/io/github/koffeinflummi/arma3spotter/BuildConfig.class \
+/Users/dajo/Development/git/Arma3Spotter/platforms/android/ant-build/classes/io/github/koffeinflummi/arma3spotter/CordovaApp.class \
+/Users/dajo/Development/git/Arma3Spotter/platforms/android/ant-build/classes/io/github/koffeinflummi/arma3spotter/R$attr.class \
+/Users/dajo/Development/git/Arma3Spotter/platforms/android/ant-build/classes/io/github/koffeinflummi/arma3spotter/R$drawable.class \
+/Users/dajo/Development/git/Arma3Spotter/platforms/android/ant-build/classes/io/github/koffeinflummi/arma3spotter/R$string.class \
+/Users/dajo/Development/git/Arma3Spotter/platforms/android/ant-build/classes/io/github/koffeinflummi/arma3spotter/R$xml.class \
+/Users/dajo/Development/git/Arma3Spotter/platforms/android/ant-build/classes/io/github/koffeinflummi/arma3spotter/R.class \
 /Users/dajo/Development/git/Arma3Spotter/platforms/android/ant-build/classes/org/apache/cordova/globalization/Globalization$1.class \
 /Users/dajo/Development/git/Arma3Spotter/platforms/android/ant-build/classes/org/apache/cordova/globalization/Globalization.class \
 /Users/dajo/Development/git/Arma3Spotter/platforms/android/ant-build/classes/org/apache/cordova/globalization/GlobalizationError.class \

@@ -198,7 +198,7 @@
         "name": "G82 12.7x99mm Mk 211 10Rnd Mag (Raufoss)",
         "initSpeed": 910,
         "airFriction": -0.00056,
-        "timeToLive": 0.05,
+        "timeToLive": 6,
         "simulationStep": 0.05
       },
       {
@@ -207,7 +207,7 @@
         "name": "G82 12.7x99mm Mk 211 10Rnd Mag (Raufoss Tracer)",
         "initSpeed": 910,
         "airFriction": -0.00056,
-        "timeToLive": 0.05,
+        "timeToLive": 6,
         "simulationStep": 0.05
       },
       {
@@ -216,7 +216,7 @@
         "name": "G82 12.7x99mm Mk 211 10Rnd Mag (Raufoss IR-DIM)",
         "initSpeed": 910,
         "airFriction": -0.00056,
-        "timeToLive": 0.05,
+        "timeToLive": 6,
         "simulationStep": 0.05
       }
     ]

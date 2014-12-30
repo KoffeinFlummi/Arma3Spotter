@@ -19,7 +19,7 @@
     },
     "installed_plugins": {
         "org.apache.cordova.globalization": {
-            "PACKAGE_NAME": "com.agmmod.arma3spotter"
+            "PACKAGE_NAME": "io.github.koffeinflummi.arma3spotter"
         }
     },
     "dependent_plugins": {}
