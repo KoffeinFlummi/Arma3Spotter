@@ -5,8 +5,10 @@ header {
   width: 100%;
   color: $secondaryColor;
   border: 0.5rem solid $primaryColor;
-  background-color: $backgroundColor;
-  background-image: url(../images/bg.jpg);
+
+  nav {
+    width: 100%;
+  }
 
   ul {
     @include clearfix();
@@ -34,9 +36,5 @@ header {
       background-color: transparent;
       color: $primaryColor;
     }
-  }
-
-  @include breakpoint($large-up) {
-    width: $nukaInnerWidth;
   }
 }
