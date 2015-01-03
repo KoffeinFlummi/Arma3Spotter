@@ -4,6 +4,8 @@ header {
   height: $headerHeight;
   width: 100%;
   color: $secondaryColor;
+  background-color: $backgroundColor;
+  background-image: url(../images/bg.jpg);
   border: 0.5rem solid $primaryColor;
 
   nav {
