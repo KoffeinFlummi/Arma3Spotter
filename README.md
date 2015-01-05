@@ -17,11 +17,10 @@ grunt serve
 
 ### Building App Packages
 
-**Requires OSX & XCode & XCode Command Line Tools**
+**Requires OSX & XCode & XCode Command Line Tools & android sdk**
 
 ```shell
 cd src
-grunt build
 grunt buildCordova
 ```
 
