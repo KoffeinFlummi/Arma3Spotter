@@ -12,15 +12,22 @@
   Config.$inject = ["$translateProvider", "$routeProvider"];
 
   function Config($translateProvider, $routeProvider) {
+    
+    try {
+      
+      var version = "0.1.0";
 
-    var version = "0.1.0";
-
-    var dataVersion = localStorage.getItem("version");
-    if ((!!dataVersion && dataVersion != version) || (!dataVersion) ) {
-      localStorage.clear();
-      localStorage.setItem("version", version);
+      var dataVersion = localStorage.getItem("version");
+      if ((!!dataVersion && dataVersion != version) || (!dataVersion) ) {
+        localStorage.clear();
+        localStorage.setItem("version", version);
+      }
+      
+    } catch (err) {
+      alert("localStorage \n" + err.stack); 
     }
-
+    
+    
     $routeProvider
       .when("/", {
         templateUrl: "views/spotter.html",
@@ -38,21 +45,25 @@
         redirectTo: "/"
       });
 
-    $translateProvider
-      .translations("en", transEn)
-      .translations("de", transDe)
-      .registerAvailableLanguageKeys(["en", "de"], {
-        "en_US": "en",
-        "en_UK": "en",
-        "en_GB": "en",
-        "de_DE": "de",
-        "de_AT": "de",
-        "de_CH": "de"
-      })
-      .preferredLanguage("en");
-      //.determinePreferredLanguage()
-      //.fallbackLanguage("en");
-
+    try {
+        
+      $translateProvider
+        .translations("en", transEn)
+        .translations("de", transDe)
+        .registerAvailableLanguageKeys(["en", "de"], {
+          "en_US": "en",
+          "en_UK": "en",
+          "en_GB": "en",
+          "de_DE": "de",
+          "de_AT": "de",
+          "de_CH": "de"
+        })
+        .preferredLanguage("en");
+        //.determinePreferredLanguage()
+        //.fallbackLanguage("en");
+      } catch (err) {
+        alert("translateProvider \n" + err.stack); 
+      }
   }
 
   var transDe = {

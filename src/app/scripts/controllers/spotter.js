@@ -32,14 +32,18 @@
     init();
 
     function init() {
-      vm.activeAmmo = vm.Data.getActiveAmmo();
-      vm.activeWeapon = vm.Data.getActiveWeapon();
-      if (!vm.activeAmmo) { logger.logError("activeAmmo not set. No weapon has been selected."); }
-      if (!vm.activeWeapon) { logger.logError("activeWeapon not set. No weapon has been selected."); }
+      try {
+        vm.activeAmmo = vm.Data.getActiveAmmo();
+        vm.activeWeapon = vm.Data.getActiveWeapon();
+        if (!vm.activeAmmo) { logger.logError("activeAmmo not set. No weapon has been selected."); }
+        if (!vm.activeWeapon) { logger.logError("activeWeapon not set. No weapon has been selected."); }
+      } catch (err) {
+        alert("spotter.init \n" + err.stack); 
+      }
     }
 
     function calculate() {
-
+    
       if (!vm.activeAmmo) {
         alert("No weapon has been selected. Please navigate to 'Settings' and select a weapon.");
         return;

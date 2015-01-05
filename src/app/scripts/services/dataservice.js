@@ -16,12 +16,15 @@
   DataService.$inject = ["$http", "logger"];
 
   function DataService($http, logger) {
-    // Service logic
-    // ...
+
     function getWeapons() {
-      return $http.get("data/weapons.json")
-        .then(getWeaponsComplete)
-        .catch(getWeaponsFailed);
+      try {
+        return $http.get("data/weapons.json")
+          .then(getWeaponsComplete)
+          .catch(getWeaponsFailed);
+      } catch (err) {
+        alert("$http.get \n" + err.stack); 
+      }
     }
 
     function getWeaponsComplete(response) {
@@ -31,7 +34,6 @@
       logger.logError("XHR failed for getWeapons." + error.data);
     }
 
-    // Public API here
     return {
       getWeapons: getWeapons
     };
