@@ -166,6 +166,20 @@ module.exports = function (grunt) {
       }
     },
 
+    targethtml: {
+      mobile: {
+        files: {
+          "<%= yeoman.dist %>/index.html": "<%= yeoman.dist %>/index.html"
+        }
+      },
+      dev: {
+        files: {
+          "<%= yeoman.dist %>/index.html": "<%= yeoman.dist %>/index.html"
+        }
+      }
+    },
+    
+    
     // Automatically inject Bower components into the app
     wiredep: {
       app: {
@@ -448,22 +462,31 @@ module.exports = function (grunt) {
     "karma"
   ]);
 
-  grunt.registerTask("build", [
-    "clean:dist",
-    "wiredep",
-    "useminPrepare",
-    "concurrent:dist",
-    "autoprefixer",
-    "concat",
-    "ngAnnotate",
-    "copy:dist",
-    //"cdnify",
-    "cssmin",
-    "uglify",
-    "filerev",
-    "usemin",
-    "htmlmin"
-  ]);
+  grunt.registerTask("build", function (target) {
+    if (target !== "mobile") {
+      target = "dev";
+    } else {
+      grunt.log.writeln("Building mobile");
+    }
+    
+    grunt.task.run([
+      "clean:dist",
+      "wiredep",
+      "useminPrepare",
+      "concurrent:dist",
+      "autoprefixer",
+      "concat",
+      "ngAnnotate",
+      "copy:dist",
+      //"cdnify",
+      "cssmin",
+      "uglify",
+      "filerev",
+      "usemin",
+      "targethtml:" + target,
+      "htmlmin"
+    ]);
+  });
 
   grunt.registerTask("default", [
     "newer:jshint",
@@ -472,6 +495,7 @@ module.exports = function (grunt) {
   ]);
 
   grunt.registerTask("buildCordova", [
+    "build:mobile",
     "cordovacli"
   ]);
 };

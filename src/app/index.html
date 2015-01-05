@@ -16,8 +16,16 @@
   <!-- build:css(.tmp) styles/main.css -->
   <link rel="stylesheet" href="styles/main.css">
   <!-- endbuild -->
-  <script src="cordova.js"></script>
-  <script src="cordova_plugins.js"></script>
+  
+  <!--(if target dev)><!-->
+  <!-- Tits -->
+  <!--<!(endif)-->
+  
+  <!--(if target mobile)>
+    <script src="cordova.js"></script>
+    <script src="cordova_plugins.js"></script>
+  <!(endif)-->
+  
 </head>
 <body ng-app="arma3SpotterApp">
   <!--[if lt IE 7]>
