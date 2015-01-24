@@ -218,7 +218,9 @@
         "airFriction": -0.00056,
         "timeToLive": 6,
         "simulationStep": 0.05
-      },
+      }
+    ]
+   },
    {
     "type": "Trixie_M24",
     "name": "M24 w/ Harris Bipod",
