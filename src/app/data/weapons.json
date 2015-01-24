@@ -218,7 +218,117 @@
         "airFriction": -0.00056,
         "timeToLive": 6,
         "simulationStep": 0.05
+      },
+   {
+    "type": "Trixie_M24",
+    "name": "M24 w/ Harris Bipod",
+    "mod": "Trixie's Sniper/Marksman Pack",
+    "magazines": [
+      {
+        "type": "Trixie_5x762_Mag",
+        "ammo": "Trixie_762_Ball",
+        "name": "5Rnd 7.62x51mm",
+        "initSpeed": 910,
+        "airFriction": -0.00048,
+        "timeToLive": 10,
+        "simulationStep": 0.05
       }
     ]
-  }
+   },
+   {
+    "type": "Trixie_AWM338",
+    "name": "AWM .338 w/ Harris Bipod",
+    "mod": "Trixie's Sniper/Marksman Pack",
+    "magazines": [
+      {
+        "type": "Trixie_5x338_Mag",
+        "ammo": "Trixie_338_Ball",
+        "name": "5Rnd .338 Lapua Magnum",
+        "initSpeed": 910,
+        "airFriction": -0.00048,
+        "timeToLive": 10,
+        "simulationStep": 0.05
+      }
+    ]
+   },
+   {
+    "type": "Trixie_M14DMR_Clean_Black",
+    "name": "M14 DMR",
+    "mod": "Trixie's Sniper/Marksman Pack",
+    "magazines": [
+      {
+        "type": "Trixie_20x762_Mag",
+        "ammo": "Trixie_762_Ball",
+        "name": "20Rnd 7.62x51mm",
+        "initSpeed": 910,
+        "airFriction": -0.00048,
+        "timeToLive": 10,
+        "simulationStep": 0.05
+      }
+    ]
+   },
+   {
+    "type": "Trixie_M40A3_Clean",
+    "name": "M40A3",
+    "mod": "Trixie's Sniper/Marksman Pack",
+    "magazines": [
+      {
+        "type": "Trixie_5x762_Mag",
+        "ammo": "Trixie_762_Ball",
+        "name": "5Rnd 7.62x51mm",
+        "initSpeed": 910,
+        "airFriction": -0.00048,
+        "timeToLive": 10,
+        "simulationStep": 0.05
+      }
+    ]
+   },
+   {
+    "type": "Trixie_M107_Black",
+    "name": "Barret M107",
+    "mod": "Trixie's Sniper/Marksman Pack",
+    "magazines": [
+      {
+        "type": "Trixie_10x127_mag",
+        "ammo": "B_127x108_Ball",
+        "name": "10Rnd 12.7x99mm",
+        "initSpeed": 820,
+        "airFriction": -0.00086,
+        "timeToLive": 10,
+        "simulationStep": 0.05
+      }
+    ]
+   },  
+   {
+    "type": "Trixie_M110_NG_Black",
+    "name": "M110 SASS",
+    "mod": "Trixie's Sniper/Marksman Pack",
+    "magazines": [
+      {
+        "type": "Trixie_20x762_Mag",
+        "ammo": "Trixie_762_Ball",
+        "name": "20Rnd 7.62x51mm",
+        "initSpeed": 910,
+        "airFriction": -0.00048,
+        "timeToLive": 10,
+        "simulationStep": 0.05
+      }
+    ]
+   },
+   {
+    "type": "rhs_weap_XM2010",
+    "name": "M2010 ESR",
+    "mod": "RHS: United States Armed Forces",
+    "magazines": [
+      {
+        "type": "rhsusf_5Rnd_300winmag_xm2010",
+        "ammo": "rhsusf_B_300winmag",
+        "name": "5Rnd. .300 Winchester Magnum",
+        "initSpeed": 869,
+        "airFriction": -0.0007034,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      }
+    ]
+   }
 ]
