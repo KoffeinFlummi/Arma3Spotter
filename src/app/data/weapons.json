@@ -220,8 +220,8 @@
         "simulationStep": 0.05
       }
     ]
-   },
-   {
+  },
+  {
     "type": "Trixie_M24",
     "name": "M24 w/ Harris Bipod",
     "mod": "Trixie's Sniper/Marksman Pack",
@@ -236,8 +236,8 @@
         "simulationStep": 0.05
       }
     ]
-   },
-   {
+  },
+  {
     "type": "Trixie_AWM338",
     "name": "AWM .338 w/ Harris Bipod",
     "mod": "Trixie's Sniper/Marksman Pack",
@@ -252,8 +252,8 @@
         "simulationStep": 0.05
       }
     ]
-   },
-   {
+  },
+  {
     "type": "Trixie_M14DMR_Clean_Black",
     "name": "M14 DMR",
     "mod": "Trixie's Sniper/Marksman Pack",
@@ -268,8 +268,8 @@
         "simulationStep": 0.05
       }
     ]
-   },
-   {
+  },
+  {
     "type": "Trixie_M40A3_Clean",
     "name": "M40A3",
     "mod": "Trixie's Sniper/Marksman Pack",
@@ -284,8 +284,8 @@
         "simulationStep": 0.05
       }
     ]
-   },
-   {
+  },
+  {
     "type": "Trixie_M107_Black",
     "name": "Barret M107",
     "mod": "Trixie's Sniper/Marksman Pack",
@@ -300,8 +300,8 @@
         "simulationStep": 0.05
       }
     ]
-   },  
-   {
+  },  
+  {
     "type": "Trixie_M110_NG_Black",
     "name": "M110 SASS",
     "mod": "Trixie's Sniper/Marksman Pack",
@@ -316,8 +316,8 @@
         "simulationStep": 0.05
       }
     ]
-   },
-   {
+  },
+  {
     "type": "rhs_weap_XM2010",
     "name": "M2010 ESR",
     "mod": "RHS: United States Armed Forces",
@@ -332,11 +332,11 @@
         "simulationStep": 0.05
       }
     ]
-   },
-    {
+  },
+  {
     "type": "hlc_rifle_samr2",
     "name": "RRA LAR-15",
-    "mod": "[HLC AR15 Pack]",
+    "mod": "HLC AR15 Pack",
     "magazines": [
       {
         "type": "30Rnd_556x45_Stanag",
