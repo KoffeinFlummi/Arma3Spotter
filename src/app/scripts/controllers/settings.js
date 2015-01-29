@@ -30,6 +30,8 @@
     vm.weaponChanged = weaponChanged;
     vm.weapons = [];
 
+    Analytics.setPageData("/settings", "Settings");
+
     // I"m too noobish to get this to work
     /*$scope.$watch("vm.activeMod", angular.bind(this, function(val,orig){
      this.modChanged(val, orig);

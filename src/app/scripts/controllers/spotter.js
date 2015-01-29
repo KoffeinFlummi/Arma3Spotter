@@ -29,6 +29,8 @@
     vm.resultHorizontal = 0;
     vm.resultVertical = 0;
 
+    Analytics.setPageData("/spotter", "Spotter");
+
     init();
 
     function init() {

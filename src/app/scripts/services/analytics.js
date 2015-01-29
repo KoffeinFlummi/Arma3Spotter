@@ -41,10 +41,17 @@ angular.module('arma3SpotterApp')
       } catch(ex)  {}
     }
 
+    function setPageData(page, title) {
+      ga("set", {
+        page: page,
+        title: title
+      });
+    }
 
     return {
       trackEvent: trackEvent,
-      trackPageView: trackPageView
+      trackPageView: trackPageView,
+      setPageData: setPageData
     };
   }
 
