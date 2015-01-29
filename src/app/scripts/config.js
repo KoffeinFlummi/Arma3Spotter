@@ -12,9 +12,9 @@
   Config.$inject = ["$translateProvider", "$routeProvider"];
 
   function Config($translateProvider, $routeProvider) {
-    
+
     try {
-      
+
       var version = "0.1.0";
 
       var dataVersion = localStorage.getItem("version");
@@ -22,14 +22,14 @@
         localStorage.clear();
         localStorage.setItem("version", version);
       }
-      
+
     } catch (err) {
-      alert("localStorage \n" + err.stack); 
+      alert("localStorage \n" + err.stack);
     }
-    
-    
+
+
     $routeProvider
-      .when("/", {
+      .when("/spotter", {
         templateUrl: "views/spotter.html",
         controller: "SpotterCtrl",
         controllerAs: "Spotter",
@@ -42,11 +42,11 @@
         activeTab: "settings"
       })
       .otherwise({
-        redirectTo: "/"
+        redirectTo: "/spotter"
       });
 
     try {
-        
+
       $translateProvider
         .translations("en", transEn)
         .translations("de", transDe)
@@ -62,7 +62,7 @@
         //.determinePreferredLanguage()
         //.fallbackLanguage("en");
       } catch (err) {
-        alert("translateProvider \n" + err.stack); 
+        alert("translateProvider \n" + err.stack);
       }
   }
 

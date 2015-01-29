@@ -12,9 +12,9 @@
   angular.module("arma3SpotterApp")
     .controller("SpotterCtrl", Spotter);
 
-  Spotter.$inject = ["Data", "logger"];
+  Spotter.$inject = ["Data", "logger", "Analytics"];
 
-  function Spotter(Data, logger) {
+  function Spotter(Data, logger, Analytics) {
     var vm = this;
 
     vm.activeAmmo = {};
@@ -32,18 +32,21 @@
     init();
 
     function init() {
+
+      Analytics.trackPageView("/spotter");
+
       try {
         vm.activeAmmo = vm.Data.getActiveAmmo();
         vm.activeWeapon = vm.Data.getActiveWeapon();
         if (!vm.activeAmmo) { logger.logError("activeAmmo not set. No weapon has been selected."); }
         if (!vm.activeWeapon) { logger.logError("activeWeapon not set. No weapon has been selected."); }
       } catch (err) {
-        alert("spotter.init \n" + err.stack); 
+        alert("spotter.init \n" + err.stack);
       }
     }
 
     function calculate() {
-    
+
       if (!vm.activeAmmo) {
         alert("No weapon has been selected. Please navigate to 'Settings' and select a weapon.");
         return;
@@ -104,6 +107,9 @@
       } catch (err) {
         vm.resultHorizontal = 0;
       }
+
+      //function trackEvent(category, action, label, value) {
+      Analytics.trackEvent("Spotter - Calculate", "click", vm.Data.getActiveWeapon().name);
     }
 
     function vectorMagnitude(vector) {

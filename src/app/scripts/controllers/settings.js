@@ -12,9 +12,9 @@
   angular.module("arma3SpotterApp")
     .controller("SettingsCtrl", Settings);
 
-  Settings.$inject = ["DataService", "StorageService", "Data"];
+  Settings.$inject = ["DataService", "StorageService", "Data", "Analytics"];
 
-  function Settings(DataService, StorageService, Data) {
+  function Settings(DataService, StorageService, Data, Analytics) {
 
     var vm = this;
 
@@ -40,6 +40,9 @@
 
 
     function init() {
+
+      Analytics.trackPageView("/settings");
+
       return DataService.getWeapons().then(function(response) {
         vm.allWeapons = response;
 

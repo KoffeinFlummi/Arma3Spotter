@@ -16,16 +16,16 @@
   <!-- build:css(.tmp) styles/main.css -->
   <link rel="stylesheet" href="styles/main.css">
   <!-- endbuild -->
-  
+
   <!--(if target dev)><!-->
   <!-- Tits -->
   <!--<!(endif)-->
-  
+
   <!--(if target mobile)>
     <script src="cordova.js"></script>
     <script src="cordova_plugins.js"></script>
   <!(endif)-->
-  
+
 </head>
 <body ng-app="arma3SpotterApp">
   <!--[if lt IE 7]>
@@ -37,7 +37,7 @@
     <header ng-controller="HeaderCtrl as Header">
       <nav>
         <ul>
-          <li role="presentation" ng-class="{active: Header.route.current.activeTab == 'spotter'}"><a ng-href="#/">Spotter</a></li>
+          <li role="presentation" ng-class="{active: Header.route.current.activeTab == 'spotter'}"><a ng-href="#/spotter">Spotter</a></li>
           <li role="presentation" ng-class="{active: Header.route.current.activeTab == 'settings'}"><a ng-href="#/settings">Settings</a></li>
         </ul>
       </nav>
@@ -98,6 +98,7 @@
   <script src="scripts/controllers/spotter.js"></script>
   <script src="scripts/controllers/settings.js"></script>
   <script src="scripts/controllers/header.js"></script>
+  <script src="scripts/services/analytics.js"></script>
   <!-- endbuild -->
 </body>
 </html>
