@@ -393,24 +393,6 @@
         "simulationStep": 0.05
       },
       {
-        "type": "30Rnd_556x45_Stanag_Tracer_Green",
-        "ammo": "B_556x45_Ball_Tracer_Green",
-        "name": "5.56mm 30Rnd Tracer Mag",
-        "initSpeed": 911,
-        "airFriction": -0.001335,
-        "timeToLive": 6,
-        "simulationStep": 0.05
-      },
-      {
-        "type": "30Rnd_556x45_Stanag_Tracer_Yellow",
-        "ammo": "B_556x45_Ball_Tracer_Yellow",
-        "name": "5.56mm 30Rnd Tracer Mag",
-        "initSpeed": 911,
-        "airFriction": -0.001335,
-        "timeToLive": 6,
-        "simulationStep": 0.05
-      },
-      {
         "type": "hlc_30rnd_556x45_S",
         "ammo": "HLC_556NATO_EPR",
         "name": "STANAG Mag (Subsonic) 5.56mm",
