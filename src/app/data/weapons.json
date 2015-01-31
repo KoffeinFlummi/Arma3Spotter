@@ -403,4 +403,29 @@
       }
     ]
   } 
+    {
+    "type": "Trixie_MK12",
+    "name": "Mk12 SPR (Black)",
+    "mod": "[mod containing weapon]",
+    "magazines": [
+      {
+        "type": "30Rnd_556x45_Stanag",
+        "ammo": "B_556x45_Ball",
+        "name": "5.56mm 30Rnd Mag",
+        "initSpeed": 911,
+        "airFriction": -0.001335,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      },
+      {
+        "type": "30Rnd_556x45_Stanag_Tracer_Red",
+        "ammo": "B_556x45_Ball_Tracer_Red",
+        "name": "5.56mm 30Rnd Tracer Mag",
+        "initSpeed": 911,
+        "airFriction": -0.001335,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      }
+    ]
+  }
 ]
