@@ -406,7 +406,7 @@
     {
     "type": "Trixie_MK12",
     "name": "Mk12 SPR (Black)",
-    "mod": "[mod containing weapon]",
+    "mod": "Trixie's Sniper/Marksman Pack",
     "magazines": [
       {
         "type": "30Rnd_556x45_Stanag",
