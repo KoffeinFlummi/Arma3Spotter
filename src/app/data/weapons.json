@@ -550,65 +550,6 @@
       }
     ]
   },
-  {
-    "type": "hlc_rifle_M14",
-    "name": "Springfield Armoury M14",
-    "mod": "HLC M14 Pack",
-    "magazines": [
-      {
-        "type": "hlc_20Rnd_762x51_B_M14",
-        "ammo": "HLC_762x51_ball",
-        "name": "M14 Magazine (Ball) 20rnd 7.62mm",
-        "initSpeed": 853,
-        "airFriction": -0.00085536,
-        "timeToLive": 6,
-        "simulationStep": 0.05
-      },
-      {
-        "type": "hlc_20Rnd_762x51_Barrier_M14",
-        "ammo": "HLC_762x51_MK316_20in",
-        "name": "M14 Magazine (Barrier Ball) 20rnd 7.62mm",
-        "initSpeed": 853,
-        "airFriction": -0.00077634,
-        "timeToLive": 6,
-        "simulationStep": 0.05
-      },
-      {
-        "type": "hlc_20Rnd_762x51_mk316_M14",
-        "ammo": "HLC_762x51_MK316_20in",
-        "name": "M14 Magazine (Mk.316) 20rnd 7.62mm",
-        "initSpeed": 853,
-        "airFriction": -0.00077634,
-        "timeToLive": 6,
-        "simulationStep": 0.05
-      },
-      {
-        "type": "hlc_20Rnd_762x51_T_M14",
-        "ammo": "B_762x51_Tracer_Green",
-        "name": "M14 Magazine(Tracer) 20rnd 7.62mm",
-        "initSpeed": 853,
-        "airFriction": -0.0009324,
-        "timeToLive": 6,
-        "simulationStep": 0.05
-      },
-      {
-        "type": "hlc_50Rnd_762x51_B_M14",
-        "ammo": "HLC_762x51_ball",
-        "name": "X-14 Magazine (Mixed) 50rnd 7.62mm",
-        "initSpeed": 853,
-        "airFriction": -0.00085536,
-        "timeToLive": 6,
-        "simulationStep": 0.05
-      },
-      {
-        "type": "hlc_20Rnd_762x51_S_M14",
-        "ammo": "HLC_762x51_BTSub",
-        "name": "M14 Magazine (Subsonic) 20rnd 7.62mm",
-        "initSpeed": 325,
-        "airFriction": -0.00049784,
-        "timeToLive": 6,
-        "simulationStep": 0.05
-      }
     ]
   }
   
