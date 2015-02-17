@@ -318,6 +318,40 @@
     ]
   },
   {
+    "type": "RH_m110",
+    "name": "M110",
+    "mod": "RH Acc pack",
+    "magazines": [
+      {
+        "type": "RH_20Rnd_762x51_M80A1",
+        "ammo": "RH_762x51_B_M80A1",
+        "name": "7.62mm 20Rnd M110 Mag M80A1",
+        "initSpeed": 784,
+        "airFriction": -0.00085536,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      },
+      {
+        "type": "RH_20Rnd_762x51_Mk316LR",
+        "ammo": "RH_762x51_B_Mk316LR",
+        "name": "7.62mm 20Rnd M110 Mag Mk316LR",
+        "initSpeed": 784,
+        "airFriction": -0.00077634,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      },
+      {
+        "type": "RH_20Rnd_762x51_LFMJSB",
+        "ammo": "RH_762x51_B_LFMJSB",
+        "name": "7.62mm 20Rnd M110 Mag LFMJSB",
+        "initSpeed": 339.852,
+        "airFriction": -0.00049784,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      }
+    ]
+  },
+  {
     "type": "rhs_weap_XM2010",
     "name": "M2010 ESR",
     "mod": "RHS: United States Armed Forces",
