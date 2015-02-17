@@ -320,7 +320,7 @@
   {
     "type": "RH_m110",
     "name": "M110",
-    "mod": "RH Acc pack",
+    "mod": "RH M4/M16 Pack",
     "magazines": [
       {
         "type": "RH_20Rnd_762x51_M80A1",
