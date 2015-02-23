@@ -461,5 +461,39 @@
         "simulationStep": 0.05
       }
     ]
+  },
+  {
+    "type": "RH_SR25EC",
+    "name": "SR25EC",
+    "mod": "RH M4/M16 Pack",
+    "magazines": [
+      {
+        "type": "RH_20Rnd_762x51_M80A1",
+        "ammo": "RH_762x51_B_M80A1",
+        "name": "7.62mm 20Rnd M110 Mag M80A1",
+        "initSpeed": 784,
+        "airFriction": -0.00085536,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      },
+      {
+        "type": "RH_20Rnd_762x51_Mk319",
+        "ammo": "RH_762x51_B_Mk319",
+        "name": "7.62mm 20Rnd SR25EC Mag Mk319",
+        "initSpeed": 784,
+        "airFriction": -0.00111169,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      },
+      {
+        "type": "RH_20Rnd_762x51_LFMJSB",
+        "ammo": "RH_762x51_B_LFMJSB",
+        "name": "7.62mm 20Rnd M110 Mag LFMJSB",
+        "initSpeed": 339.852,
+        "airFriction": -0.00049784,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      }
+    ]
   }
 ]
