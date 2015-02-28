@@ -15,7 +15,7 @@
       }
     ]
   },
-  {
+  { 
     "type": "srifle_DMR_01_F",
     "name": "VS-121",
     "mod": "Arma3",
@@ -491,6 +491,421 @@
         "name": "7.62mm 20Rnd M110 Mag LFMJSB",
         "initSpeed": 339.852,
         "airFriction": -0.00049784,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      }
+    ]
+  },
+  {
+    "type": "arifle_mas_g3",
+    "name": "G3",
+    "mod": "[Massis SF Weapons]",
+    "magazines": [
+      {
+        "type": "20Rnd_mas_762x51_Stanag",
+        "ammo": "B_mas_762x51_Ball",
+        "name": "20rnd 7.62mm Mag",
+        "initSpeed": 911,
+        "airFriction": -0.001,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      },
+      {
+        "type": "20Rnd_mas_762x51_T_Stanag",
+        "ammo": "B_mas_762x51_Ball_T",
+        "name": "20rnd 7.62mm Mag(Tracer)",
+        "initSpeed": 911,
+        "airFriction": -0.001,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      },
+      {
+        "type": "20Rnd_762x51_Mag",
+        "ammo": "AGM_B_762x51_M118LR",
+        "name": "7.62mm 20Rnd Mag",
+        "initSpeed": 792,
+        "airFriction": -0.0008577,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      }
+    ]
+  },
+  {
+    "type": "srifle_mas_hk417",
+    "name": "HK417",
+    "mod": "[Massis SF Weapons]",
+    "magazines": [
+      {
+        "type": "20Rnd_mas_762x51_Stanag",
+        "ammo": "B_mas_762x51_Ball",
+        "name": "20rnd 7.62mm Mag",
+        "initSpeed": 911,
+        "airFriction": -0.001,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      },
+      {
+        "type": "20Rnd_mas_762x51_T_Stanag",
+        "ammo": "B_mas_762x51_Ball_T",
+        "name": "20rnd 7.62mm Mag(Tracer)",
+        "initSpeed": 911,
+        "airFriction": -0.001,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      },
+      {
+        "type": "20Rnd_762x51_Mag",
+        "ammo": "AGM_B_762x51_M118LR",
+        "name": "7.62mm 20Rnd Mag",
+        "initSpeed": 792,
+        "airFriction": -0.0008577,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      }
+    ]
+  },
+  {
+    "type": "srifle_mas_ksvk",
+    "name": "KSVK",
+    "mod": "[Massis SF Weapons]",
+    "magazines": [
+      {
+        "type": "5Rnd_mas_127x108_mag",
+        "ammo": "B_mas_127x99_Ball",
+        "name": "5rnd 12.7mm Mag",
+        "initSpeed": 911,
+        "airFriction": -0.00086,
+        "timeToLive": 10,
+        "simulationStep": 0.05
+      },
+      {
+        "type": "5Rnd_mas_127x108_dem_mag",
+        "ammo": "B_mas_127x99_dem_Ball",
+        "name": "5rnd 12.7mm Demo Mag",
+        "initSpeed": 911,
+        "airFriction": -0.00086,
+        "timeToLive": 10,
+        "simulationStep": 0.05
+      },
+      {
+        "type": "5Rnd_mas_127x108_T_mag",
+        "ammo": "B_mas_127x99_Ball_T",
+        "name": "5rnd 12.7mm Mag(Tracer)",
+        "initSpeed": 911,
+        "airFriction": -0.00086,
+        "timeToLive": 10,
+        "simulationStep": 0.05
+      },
+      {
+        "type": "5Rnd_127x108_Mag",
+        "ammo": "B_127x108_Ball",
+        "name": "12.7mm 5Rnd Mag",
+        "initSpeed": 820,
+        "airFriction": -0.00086,
+        "timeToLive": 10,
+        "simulationStep": 0.05
+      }
+    ]
+  },
+  {
+    "type": "arifle_mas_lee",
+    "name": "Lee-Enfield No4",
+    "mod": "[Massis SF Weapons]",
+    "magazines": [
+      {
+        "type": "5Rnd_mas_762x51_Stanag",
+        "ammo": "B_mas_762x51_Ball",
+        "name": "5rnd 7.62mm Mag",
+        "initSpeed": 911,
+        "airFriction": -0.001,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      },
+      {
+        "type": "5Rnd_mas_762x51_T_Stanag",
+        "ammo": "B_mas_762x51_Ball_T",
+        "name": "5rnd 7.62mm Mag(Tracer)",
+        "initSpeed": 911,
+        "airFriction": -0.001,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      }
+    ]
+  },
+  {
+    "type": "srifle_mas_lrr",
+    "name": "LRR AWM",
+    "mod": "[Massis SF Weapons]",
+    "magazines": [
+      {
+        "type": "10Rnd_mas_338_Stanag",
+        "ammo": "B_mas_338_Ball",
+        "name": "10rnd 338 Mag",
+        "initSpeed": 911,
+        "airFriction": -0.001,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      },
+      {
+        "type": "10Rnd_mas_338_T_Stanag",
+        "ammo": "B_mas_338_Ball_T",
+        "name": "10rnd 338 Mag(Tracer)",
+        "initSpeed": 911,
+        "airFriction": -0.001,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      }
+    ]
+  },
+  {
+    "type": "srifle_mas_ebr",
+    "name": "M14 EBR",
+    "mod": "[Massis SF Weapons]",
+    "magazines": [
+      {
+        "type": "20Rnd_mas_762x51_Stanag",
+        "ammo": "B_mas_762x51_Ball",
+        "name": "20rnd 7.62mm Mag",
+        "initSpeed": 911,
+        "airFriction": -0.001,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      },
+      {
+        "type": "20Rnd_mas_762x51_T_Stanag",
+        "ammo": "B_mas_762x51_Ball_T",
+        "name": "20rnd 7.62mm Mag(Tracer)",
+        "initSpeed": 911,
+        "airFriction": -0.001,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      },
+      {
+        "type": "20Rnd_762x51_Mag",
+        "ammo": "AGM_B_762x51_M118LR",
+        "name": "7.62mm 20Rnd Mag",
+        "initSpeed": 792,
+        "airFriction": -0.0008577,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      }
+    ]
+  },
+  {
+    "type": "arifle_mas_m14",
+    "name": "M14 Old",
+    "mod": "[Massis SF Weapons]",
+    "magazines": [
+      {
+        "type": "20Rnd_mas_762x51_Stanag",
+        "ammo": "B_mas_762x51_Ball",
+        "name": "20rnd 7.62mm Mag",
+        "initSpeed": 911,
+        "airFriction": -0.001,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      },
+      {
+        "type": "20Rnd_mas_762x51_T_Stanag",
+        "ammo": "B_mas_762x51_Ball_T",
+        "name": "20rnd 7.62mm Mag(Tracer)",
+        "initSpeed": 911,
+        "airFriction": -0.001,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      },
+      {
+        "type": "20Rnd_762x51_Mag",
+        "ammo": "AGM_B_762x51_M118LR",
+        "name": "7.62mm 20Rnd Mag",
+        "initSpeed": 792,
+        "airFriction": -0.0008577,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      }
+    ]
+  },
+  {
+    "type": "srifle_mas_m24",
+    "name": "M24",
+    "mod": "[Massis SF Weapons]",
+    "magazines": [
+      {
+        "type": "5Rnd_mas_762x51_Stanag",
+        "ammo": "B_mas_762x51_Ball",
+        "name": "5rnd 7.62mm Mag",
+        "initSpeed": 911,
+        "airFriction": -0.001,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      },
+      {
+        "type": "5Rnd_mas_762x51_T_Stanag",
+        "ammo": "B_mas_762x51_Ball_T",
+        "name": "5rnd 7.62mm Mag(Tracer)",
+        "initSpeed": 911,
+        "airFriction": -0.001,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      }
+    ]
+  },
+  {
+    "type": "srifle_mas_m107",
+    "name": "M107",
+    "mod": "[Massis SF Weapons]",
+    "magazines": [
+      {
+        "type": "5Rnd_mas_127x99_Stanag",
+        "ammo": "B_mas_127x99_Ball",
+        "name": "10rnd 12.7mm Mag",
+        "initSpeed": 911,
+        "airFriction": -0.00086,
+        "timeToLive": 10,
+        "simulationStep": 0.05
+      },
+      {
+        "type": "5Rnd_mas_127x99_dem_Stanag",
+        "ammo": "B_mas_127x99_dem_Ball",
+        "name": "10rnd 12.7mm Demo Mag",
+        "initSpeed": 911,
+        "airFriction": -0.00086,
+        "timeToLive": 10,
+        "simulationStep": 0.05
+      },
+      {
+        "type": "5Rnd_mas_127x99_T_Stanag",
+        "ammo": "B_mas_127x99_Ball_T",
+        "name": "10rnd 12.7mm Mag(Tracer)",
+        "initSpeed": 911,
+        "airFriction": -0.00086,
+        "timeToLive": 10,
+        "simulationStep": 0.05
+      }
+    ]
+  },
+  {
+    "type": "srifle_mas_m110",
+    "name": "M110",
+    "mod": "[Massis SF Weapons]",
+    "magazines": [
+      {
+        "type": "20Rnd_mas_762x51_Stanag",
+        "ammo": "B_mas_762x51_Ball",
+        "name": "20rnd 7.62mm Mag",
+        "initSpeed": 911,
+        "airFriction": -0.001,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      },
+      {
+        "type": "20Rnd_mas_762x51_T_Stanag",
+        "ammo": "B_mas_762x51_Ball_T",
+        "name": "20rnd 7.62mm Mag(Tracer)",
+        "initSpeed": 911,
+        "airFriction": -0.001,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      },
+      {
+        "type": "20Rnd_762x51_Mag",
+        "ammo": "AGM_B_762x51_M118LR",
+        "name": "7.62mm 20Rnd Mag",
+        "initSpeed": 792,
+        "airFriction": -0.0008577,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      }
+    ]
+  },
+  {
+    "type": "srifle_mas_mk17s",
+    "name": "SCAR-H Marksman",
+    "mod": "[Massis SF Weapons]",
+    "magazines": [
+      {
+        "type": "20Rnd_mas_762x51_Stanag",
+        "ammo": "B_mas_762x51_Ball",
+        "name": "20rnd 7.62mm Mag",
+        "initSpeed": 911,
+        "airFriction": -0.001,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      },
+      {
+        "type": "20Rnd_mas_762x51_T_Stanag",
+        "ammo": "B_mas_762x51_Ball_T",
+        "name": "20rnd 7.62mm Mag(Tracer)",
+        "initSpeed": 911,
+        "airFriction": -0.001,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      },
+      {
+        "type": "20Rnd_762x51_Mag",
+        "ammo": "AGM_B_762x51_M118LR",
+        "name": "7.62mm 20Rnd Mag",
+        "initSpeed": 792,
+        "airFriction": -0.0008577,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      }
+    ]
+  },
+  {
+    "type": "srifle_mas_sr25",
+    "name": "SR25",
+    "mod": "[Massis SF Weapons]",
+    "magazines": [
+      {
+        "type": "20Rnd_mas_762x51_Stanag",
+        "ammo": "B_mas_762x51_Ball",
+        "name": "20rnd 7.62mm Mag",
+        "initSpeed": 911,
+        "airFriction": -0.001,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      },
+      {
+        "type": "20Rnd_mas_762x51_T_Stanag",
+        "ammo": "B_mas_762x51_Ball_T",
+        "name": "20rnd 7.62mm Mag(Tracer)",
+        "initSpeed": 911,
+        "airFriction": -0.001,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      },
+      {
+        "type": "20Rnd_762x51_Mag",
+        "ammo": "AGM_B_762x51_M118LR",
+        "name": "7.62mm 20Rnd Mag",
+        "initSpeed": 792,
+        "airFriction": -0.0008577,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      }
+    ]
+  },
+  {
+    "type": "srifle_mas_svd",
+    "name": "SVD Dragunov",
+    "mod": "[Massis SF Weapons]",
+    "magazines": [
+      {
+        "type": "10Rnd_mas_762x54_mag",
+        "ammo": "B_mas_762x54_Ball",
+        "name": "10rnd 7.62mm Mag",
+        "initSpeed": 911,
+        "airFriction": -0.001,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      },
+      {
+        "type": "10Rnd_mas_762x54_T_mag",
+        "ammo": "B_mas_762x54_Ball_T",
+        "name": "10rnd 7.62mm Mag(Tracer)",
+        "initSpeed": 911,
+        "airFriction": -0.001,
         "timeToLive": 6,
         "simulationStep": 0.05
       }
