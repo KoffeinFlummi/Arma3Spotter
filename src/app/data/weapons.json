@@ -499,7 +499,7 @@
   {
     "type": "arifle_mas_g3",
     "name": "G3",
-    "mod": "[Massis SF Weapons]",
+    "mod": "Massi's SF Weapons",
     "magazines": [
       {
         "type": "20Rnd_mas_762x51_Stanag",
@@ -533,7 +533,7 @@
   {
     "type": "srifle_mas_hk417",
     "name": "HK417",
-    "mod": "[Massis SF Weapons]",
+    "mod": "Massi's SF Weapons",
     "magazines": [
       {
         "type": "20Rnd_mas_762x51_Stanag",
@@ -567,7 +567,7 @@
   {
     "type": "srifle_mas_ksvk",
     "name": "KSVK",
-    "mod": "[Massis SF Weapons]",
+    "mod": "Massi's SF Weapons",
     "magazines": [
       {
         "type": "5Rnd_mas_127x108_mag",
@@ -610,7 +610,7 @@
   {
     "type": "arifle_mas_lee",
     "name": "Lee-Enfield No4",
-    "mod": "[Massis SF Weapons]",
+    "mod": "Massi's SF Weapons",
     "magazines": [
       {
         "type": "5Rnd_mas_762x51_Stanag",
@@ -635,7 +635,7 @@
   {
     "type": "srifle_mas_lrr",
     "name": "LRR AWM",
-    "mod": "[Massis SF Weapons]",
+    "mod": "Massi's SF Weapons",
     "magazines": [
       {
         "type": "10Rnd_mas_338_Stanag",
@@ -660,7 +660,7 @@
   {
     "type": "srifle_mas_ebr",
     "name": "M14 EBR",
-    "mod": "[Massis SF Weapons]",
+    "mod": "Massi's SF Weapons",
     "magazines": [
       {
         "type": "20Rnd_mas_762x51_Stanag",
@@ -694,7 +694,7 @@
   {
     "type": "arifle_mas_m14",
     "name": "M14 Old",
-    "mod": "[Massis SF Weapons]",
+    "mod": "Massi's SF Weapons",
     "magazines": [
       {
         "type": "20Rnd_mas_762x51_Stanag",
@@ -728,7 +728,7 @@
   {
     "type": "srifle_mas_m24",
     "name": "M24",
-    "mod": "[Massis SF Weapons]",
+    "mod": "Massi's SF Weapons",
     "magazines": [
       {
         "type": "5Rnd_mas_762x51_Stanag",
@@ -753,7 +753,7 @@
   {
     "type": "srifle_mas_m107",
     "name": "M107",
-    "mod": "[Massis SF Weapons]",
+    "mod": "Massi's SF Weapons",
     "magazines": [
       {
         "type": "5Rnd_mas_127x99_Stanag",
@@ -787,7 +787,7 @@
   {
     "type": "srifle_mas_m110",
     "name": "M110",
-    "mod": "[Massis SF Weapons]",
+    "mod": "Massi's SF Weapons",
     "magazines": [
       {
         "type": "20Rnd_mas_762x51_Stanag",
@@ -821,7 +821,7 @@
   {
     "type": "srifle_mas_mk17s",
     "name": "SCAR-H Marksman",
-    "mod": "[Massis SF Weapons]",
+    "mod": "Massi's SF Weapons",
     "magazines": [
       {
         "type": "20Rnd_mas_762x51_Stanag",
@@ -855,7 +855,7 @@
   {
     "type": "srifle_mas_sr25",
     "name": "SR25",
-    "mod": "[Massis SF Weapons]",
+    "mod": "Massi's SF Weapons",
     "magazines": [
       {
         "type": "20Rnd_mas_762x51_Stanag",
@@ -889,7 +889,7 @@
   {
     "type": "srifle_mas_svd",
     "name": "SVD Dragunov",
-    "mod": "[Massis SF Weapons]",
+    "mod": "Massi's SF Weapons",
     "magazines": [
       {
         "type": "10Rnd_mas_762x54_mag",
