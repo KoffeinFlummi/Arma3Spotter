@@ -369,8 +369,8 @@
   },
   {
   "type": "CUP_srifle_AWM_des",
-  "name": "L115A1 (Desert)",
-  "mod": "RHS: United States Armed Forces",
+  "name": "L115A1",
+  "mod": "RHS: Escalation",
   "magazines": [
     {
       "type": "CUP_5Rnd_86x70_L115A1",
