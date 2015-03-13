@@ -910,5 +910,21 @@
         "simulationStep": 0.05
       }
     ]
+  },
+  {
+    "type": "test",
+    "name": "Test",
+    "mod": "Test",
+    "magazines": [
+      {
+        "type": "test",
+        "ammo": "test",
+        "name": "test",
+        "initSpeed": 500,
+        "airFriction": -0.001,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      }
+    ]
   }
 ]
