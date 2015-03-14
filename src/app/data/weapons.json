@@ -910,5 +910,501 @@
         "simulationStep": 0.05
       }
     ]
+  },
+  {
+    "type": "CUP_srifle_AS50",
+    "name": "AS50",
+    "mod": "Community Upgrade Project",
+    "magazines": [
+      {
+        "type": "CUP_5Rnd_127x99_as50_M",
+        "ammo": "B_127x99_Ball",
+        "name": "5 Rnd 127x99 AS60",
+        "initSpeed": 936,
+        "airFriction": -0.00086,
+        "timeToLive": 10,
+        "simulationStep": 0.05
+      }
+    ]
+  },
+  {
+    "type": "CUP_srifle_CZ550",
+    "name": "CZ 550",
+    "mod": "Community Upgrade Project",
+    "magazines": [
+      {
+        "type": "CUP_5x_22_LR_17_HMR_M",
+        "ammo": "CUP_B_762x51_noTracer",
+        "name": "5 Rnd CZ 550",
+        "initSpeed": 900,
+        "airFriction": -0.001,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      }
+    ]
+  },
+  {
+    "type": "CUP_srifle_CZ750",
+    "name": "CZ 750 S1 M1",
+    "mod": "Community Upgrade Project",
+    "magazines": [
+      {
+        "type": "CUP_10Rnd_762x51_CZ750_Tracer",
+        "ammo": "B_762x51_Ball",
+        "name": "7.62x51mm 10rnd CZ 750 Tracer Mag",
+        "initSpeed": 790,
+        "airFriction": -0.001,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      },
+      {
+        "type": "CUP_10Rnd_762x51_CZ750",
+        "ammo": "B_762x51_Ball",
+        "name": "7.62x51mm 10rnd CZ 750 Mag",
+        "initSpeed": 790,
+        "airFriction": -0.001,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      }
+    ]
+  },
+  {
+    "type": "CUP_srifle_SVD",
+    "name": "Dragunov SVD",
+    "mod": "Community Upgrade Project",
+    "magazines": [
+      {
+        "type": "CUP_10Rnd_762x54_SVD_M",
+        "ammo": "CUP_B_762x54_Ball_White_Tracer",
+        "name": "10 Rnd SVD Mag",
+        "initSpeed": 900,
+        "airFriction": -0.00096,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      }
+    ]
+  },
+  {
+    "type": "CUP_srifle_ksvk",
+    "name": "KSVK",
+    "mod": "Community Upgrade Project",
+    "magazines": [
+      {
+        "type": "CUP_5Rnd_127x108_KSVK_M",
+        "ammo": "CUP_B_127x108_Ball_Green_Tracer",
+        "name": "5 Rnd KSVK 1.27x108",
+        "initSpeed": 850,
+        "airFriction": -0.00055,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      }
+    ]
+  },
+  {
+    "type": "CUP_srifle_AWM_des",
+    "name": "L115A1 (Desert)",
+    "mod": "Community Upgrade Project",
+    "magazines": [
+      {
+        "type": "CUP_5Rnd_86x70_L115A1",
+        "ammo": "CUP_B_86x70_Ball_noTracer",
+        "name": "5 Rnd .338 Lapua Magnum",
+        "initSpeed": 936,
+        "airFriction": -0.0005,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      }
+    ]
+  },
+  {
+    "type": "CUP_srifle_M107_Base",
+    "name": "M107",
+    "mod": "Community Upgrade Project",
+    "magazines": [
+      {
+        "type": "CUP_10Rnd_127x99_m107",
+        "ammo": "B_127x99_Ball",
+        "name": "10 Rnd M107",
+        "initSpeed": 900,
+        "airFriction": -0.00086,
+        "timeToLive": 10,
+        "simulationStep": 0.05
+      }
+    ]
+  },
+  {
+    "type": "CUP_srifle_M110",
+    "name": "M110",
+    "mod": "Community Upgrade Project",
+    "magazines": [
+      {
+        "type": "CUP_20Rnd_762x51_B_M110",
+        "ammo": "B_762x51_Ball",
+        "name": "20 Rnd M110",
+        "initSpeed": 900,
+        "airFriction": -0.001,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      },
+      {
+        "type": "CUP_20Rnd_TE1_Yellow_Tracer_762x51_M110",
+        "ammo": "CUP_B_762x51_Tracer_Yellow",
+        "name": "20 Rnd M110 Yellow Tracer",
+        "initSpeed": 900,
+        "airFriction": -0.001,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      },
+      {
+        "type": "CUP_20Rnd_TE1_Red_Tracer_762x51_M110",
+        "ammo": "CUP_B_762x51_Tracer_Red",
+        "name": "20 Rnd M110 Red Tracer",
+        "initSpeed": 900,
+        "airFriction": -0.001,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      },
+      {
+        "type": "CUP_20Rnd_TE1_Green_Tracer_762x51_M110",
+        "ammo": "CUP_B_762x51_Tracer_Green",
+        "name": "20 Rnd M110 Green Tracer",
+        "initSpeed": 900,
+        "airFriction": -0.001,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      },
+      {
+        "type": "CUP_20Rnd_TE1_White_Tracer_762x51_M110",
+        "ammo": "CUP_B_762x51_Tracer_white",
+        "name": "20 Rnd M110 White Tracer",
+        "initSpeed": 900,
+        "airFriction": -0.001,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      }
+    ]
+  },
+  {
+    "type": "CUP_srifle_M14",
+    "name": "M14",
+    "mod": "Community Upgrade Project",
+    "magazines": [
+      {
+        "type": "CUP_20Rnd_762x51_DMR",
+        "ammo": "B_762x51_Ball",
+        "name": "20 Rnd DMR",
+        "initSpeed": 900,
+        "airFriction": -0.001,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      },
+      {
+        "type": "CUP_20Rnd_TE1_Yellow_Tracer_762x51_DMR",
+        "ammo": "CUP_B_762x51_Tracer_Yellow",
+        "name": "20 Rnd DMR Yellow Tracer",
+        "initSpeed": 900,
+        "airFriction": -0.001,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      },
+      {
+        "type": "CUP_20Rnd_TE1_Red_Tracer_762x51_DMR",
+        "ammo": "CUP_B_762x51_Tracer_Red",
+        "name": "20 Rnd DMR Red Tracer",
+        "initSpeed": 900,
+        "airFriction": -0.001,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      },
+      {
+        "type": "CUP_20Rnd_TE1_Green_Tracer_762x51_DMR",
+        "ammo": "CUP_B_762x51_Tracer_Green",
+        "name": "20 Rnd DMR Green Tracer",
+        "initSpeed": 900,
+        "airFriction": -0.001,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      },
+      {
+        "type": "CUP_20Rnd_TE1_White_Tracer_762x51_DMR",
+        "ammo": "CUP_B_762x51_Tracer_white",
+        "name": "20 Rnd DMR White Tracer",
+        "initSpeed": 900,
+        "airFriction": -0.001,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      },
+      {
+        "type": "20Rnd_762x51_Mag",
+        "ammo": "AGM_B_762x51_M118LR",
+        "name": "7.62mm 20Rnd Mag",
+        "initSpeed": 792,
+        "airFriction": -0.0008577,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      }
+    ]
+  },
+  {
+    "type": "CUP_srifle_DMR",
+    "name": "M14 DMR",
+    "mod": "Community Upgrade Project",
+    "magazines": [
+      {
+        "type": "CUP_20Rnd_762x51_DMR",
+        "ammo": "B_762x51_Ball",
+        "name": "20 Rnd DMR",
+        "initSpeed": 900,
+        "airFriction": -0.001,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      },
+      {
+        "type": "CUP_20Rnd_TE1_Yellow_Tracer_762x51_DMR",
+        "ammo": "CUP_B_762x51_Tracer_Yellow",
+        "name": "20 Rnd DMR Yellow Tracer",
+        "initSpeed": 900,
+        "airFriction": -0.001,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      },
+      {
+        "type": "CUP_20Rnd_TE1_Red_Tracer_762x51_DMR",
+        "ammo": "CUP_B_762x51_Tracer_Red",
+        "name": "20 Rnd DMR Red Tracer",
+        "initSpeed": 900,
+        "airFriction": -0.001,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      },
+      {
+        "type": "CUP_20Rnd_TE1_Green_Tracer_762x51_DMR",
+        "ammo": "CUP_B_762x51_Tracer_Green",
+        "name": "20 Rnd DMR Green Tracer",
+        "initSpeed": 900,
+        "airFriction": -0.001,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      },
+      {
+        "type": "CUP_20Rnd_TE1_White_Tracer_762x51_DMR",
+        "ammo": "CUP_B_762x51_Tracer_white",
+        "name": "20 Rnd DMR White Tracer",
+        "initSpeed": 900,
+        "airFriction": -0.001,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      },
+      {
+        "type": "20Rnd_762x51_Mag",
+        "ammo": "AGM_B_762x51_M118LR",
+        "name": "7.62mm 20Rnd Mag",
+        "initSpeed": 792,
+        "airFriction": -0.0008577,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      }
+    ]
+  },
+  {
+    "type": "CUP_srifle_M24_des",
+    "name": "M24 (desert)",
+    "mod": "Community Upgrade Project",
+    "magazines": [
+      {
+        "type": "CUP_5Rnd_762x51_M24",
+        "ammo": "CUP_B_762x51_noTracer",
+        "name": "5 Rnd M24",
+        "initSpeed": 900,
+        "airFriction": -0.001,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      }
+    ]
+  },
+  {
+    "type": "CUP_srifle_Mk12SPR",
+    "name": "Mk 12 SPR",
+    "mod": "Community Upgrade Project",
+    "magazines": [
+      {
+        "type": "CUP_20Rnd_556x45_Stanag",
+        "ammo": "B_556x45_Ball",
+        "name": "20 Rnd STANAG 556x45",
+        "initSpeed": 920,
+        "airFriction": -0.001335,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      },
+      {
+        "type": "CUP_30Rnd_556x45_Stanag",
+        "ammo": "B_556x45_Ball",
+        "name": "5.56mm 30rnd STANAG Mag",
+        "initSpeed": 920,
+        "airFriction": -0.001335,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      },
+      {
+        "type": "CUP_30Rnd_556x45_G36",
+        "ammo": "B_556x45_Ball",
+        "name": "30 Rnd G36",
+        "initSpeed": 911,
+        "airFriction": -0.001335,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      },
+      {
+        "type": "CUP_30Rnd_TE1_Red_Tracer_556x45_G36",
+        "ammo": "B_556x45_Ball_Tracer_Red",
+        "name": "30 Rnd G36 Red Tracer",
+        "initSpeed": 911,
+        "airFriction": -0.001335,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      },
+      {
+        "type": "CUP_30Rnd_TE1_Green_Tracer_556x45_G36",
+        "ammo": "B_556x45_Ball_Tracer_Green",
+        "name": "30 Rnd G36 Green Tracer",
+        "initSpeed": 911,
+        "airFriction": -0.001335,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      },
+      {
+        "type": "CUP_30Rnd_TE1_Yellow_Tracer_556x45_G36",
+        "ammo": "B_556x45_Ball_Tracer_Yellow",
+        "name": "30 Rnd G36 Yellow Tracer",
+        "initSpeed": 911,
+        "airFriction": -0.001335,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      },
+      {
+        "type": "CUP_100Rnd_556x45_BetaCMag",
+        "ammo": "B_556x45_Ball",
+        "name": "100 Rnd Beta-C Magazine",
+        "initSpeed": 911,
+        "airFriction": -0.001335,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      },
+      {
+        "type": "CUP_100Rnd_TE1_Red_Tracer_556x45_BetaCMag",
+        "ammo": "B_556x45_Ball_Tracer_Red",
+        "name": "100 Rnd Beta-C Red Tracer",
+        "initSpeed": 911,
+        "airFriction": -0.001335,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      },
+      {
+        "type": "CUP_100Rnd_TE1_Green_Tracer_556x45_BetaCMag",
+        "ammo": "B_556x45_Ball_Tracer_Green",
+        "name": "100 Rnd Beta-C Green Tracer",
+        "initSpeed": 911,
+        "airFriction": -0.001335,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      },
+      {
+        "type": "CUP_100Rnd_TE1_Yellow_Tracer_556x45_BetaCMag",
+        "ammo": "B_556x45_Ball_Tracer_Yellow",
+        "name": "100 Rnd Beta-C Yellow Tracer",
+        "initSpeed": 911,
+        "airFriction": -0.001335,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      },
+      {
+        "type": "30Rnd_556x45_Stanag",
+        "ammo": "B_556x45_Ball",
+        "name": "5.56mm 30Rnd Mag",
+        "initSpeed": 911,
+        "airFriction": -0.001335,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      },
+      {
+        "type": "30Rnd_556x45_Stanag_Tracer_Red",
+        "ammo": "B_556x45_Ball_Tracer_Red",
+        "name": "5.56mm 30Rnd Tracer Mag",
+        "initSpeed": 911,
+        "airFriction": -0.001335,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      },
+      {
+        "type": "30Rnd_556x45_Stanag_Tracer_Green",
+        "ammo": "B_556x45_Ball_Tracer_Green",
+        "name": "5.56mm 30Rnd Tracer Mag",
+        "initSpeed": 911,
+        "airFriction": -0.001335,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      },
+      {
+        "type": "30Rnd_556x45_Stanag_Tracer_Yellow",
+        "ammo": "B_556x45_Ball_Tracer_Yellow",
+        "name": "5.56mm 30Rnd Tracer Mag",
+        "initSpeed": 911,
+        "airFriction": -0.001335,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      }
+    ]
+  },
+  {
+    "type": "CUP_arifle_Mk20",
+    "name": "Mk20 Mod 0",
+    "mod": "Community Upgrade Project",
+    "magazines": [
+      {
+        "type": "CUP_20Rnd_762x51_B_SCAR",
+        "ammo": "B_762x51_Ball",
+        "name": "20 Rnd Mk17",
+        "initSpeed": 900,
+        "airFriction": -0.001,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      },
+      {
+        "type": "CUP_20Rnd_TE1_Yellow_Tracer_762x51_SCAR",
+        "ammo": "CUP_B_762x51_Tracer_Yellow",
+        "name": "20 Rnd Mk17 Yellow Tracer",
+        "initSpeed": 900,
+        "airFriction": -0.001,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      },
+      {
+        "type": "CUP_20Rnd_TE1_Red_Tracer_762x51_SCAR",
+        "ammo": "CUP_B_762x51_Tracer_Red",
+        "name": "20 Rnd Mk17 Red Tracer",
+        "initSpeed": 900,
+        "airFriction": -0.001,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      },
+      {
+        "type": "CUP_20Rnd_TE1_Green_Tracer_762x51_SCAR",
+        "ammo": "CUP_B_762x51_Tracer_Green",
+        "name": "20 Rnd Mk17 Green Tracer",
+        "initSpeed": 900,
+        "airFriction": -0.001,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      },
+      {
+        "type": "CUP_20Rnd_TE1_White_Tracer_762x51_SCAR",
+        "ammo": "CUP_B_762x51_Tracer_white",
+        "name": "20 Rnd Mk17 White Tracer",
+        "initSpeed": 900,
+        "airFriction": -0.001,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      }
+    ]
   }
 ]
