@@ -368,6 +368,22 @@
     ]
   },
   {
+  "type": "CUP_srifle_AWM_des",
+  "name": "L115A1",
+  "mod": "Community Upgrade Project",
+  "magazines": [
+    {
+      "type": "CUP_5Rnd_86x70_L115A1",
+      "ammo": "CUP_B_86x70_Ball_noTracer",
+      "name": "5 Rnd .338 Lapua Magnum",
+      "initSpeed": 936,
+      "airFriction": -0.0005,
+      "timeToLive": 6,
+      "simulationStep": 0.05
+    }
+   ]
+  },
+  {
     "type": "hlc_rifle_samr2",
     "name": "RRA LAR-15",
     "mod": "HLC AR15 Pack",
