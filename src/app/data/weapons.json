@@ -1002,7 +1002,7 @@
   },
   {
     "type": "CUP_srifle_AWM_des",
-    "name": "L115A1 (Desert)",
+    "name": "L115A1",
     "mod": "Community Upgrade Project",
     "magazines": [
       {
