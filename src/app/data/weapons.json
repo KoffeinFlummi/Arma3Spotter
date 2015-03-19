@@ -368,6 +368,82 @@
     ]
   },
   {
+    "type": "rhs_weap_m14ebrri",
+    "name": "M14 EBR-RI",
+    "mod": "RHS: United States Armed Forces",
+    "magazines": [
+      {
+        "type": "rhsusf_20Rnd_762x51_m118_special_Mag",
+        "ammo": "rhs_ammo_762x51_M118_Special_Ball",
+        "name": "7.62mm M118 20Rnd Mag",
+        "initSpeed": 805,
+        "airFriction": -0.0007474,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      },
+      {
+        "type": "rhsusf_20Rnd_762x51_m993_Mag",
+        "ammo": "rhs_ammo_762x51_M993_Ball",
+        "name": "7.62mm M993 20Rnd Mag",
+        "initSpeed": 910,
+        "airFriction": -0.0006814,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      }
+    ]
+  },
+  
+  {
+    "type": "rhs_weap_sr25",
+    "name": "SR-25",
+    "mod": "RHS: United States Armed Forces",
+    "magazines": [
+      {
+        "type": "rhsusf_20Rnd_762x51_m118_special_Mag",
+        "ammo": "rhs_ammo_762x51_M118_Special_Ball",
+        "name": "7.62mm M118 20Rnd Mag",
+        "initSpeed": 805,
+        "airFriction": -0.0007474,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      },
+      {
+        "type": "rhsusf_20Rnd_762x51_m993_Mag",
+        "ammo": "rhs_ammo_762x51_M993_Ball",
+        "name": "7.62mm M993 20Rnd Mag",
+        "initSpeed": 910,
+        "airFriction": -0.0006814,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      }
+    ]
+  },
+  {
+    "type": "rhs_weap_sr25_ec",
+    "name": "SR-25 EC",
+    "mod": "RHS: United States Armed Forces",
+    "magazines": [
+      {
+        "type": "rhsusf_20Rnd_762x51_m118_special_Mag",
+        "ammo": "rhs_ammo_762x51_M118_Special_Ball",
+        "name": "7.62mm M118 20Rnd Mag",
+        "initSpeed": 805,
+        "airFriction": -0.0007474,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      },
+      {
+        "type": "rhsusf_20Rnd_762x51_m993_Mag",
+        "ammo": "rhs_ammo_762x51_M993_Ball",
+        "name": "7.62mm M993 20Rnd Mag",
+        "initSpeed": 910,
+        "airFriction": -0.0006814,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      }
+    ]
+  },
+  {
     "type": "hlc_rifle_samr2",
     "name": "RRA LAR-15",
     "mod": "HLC AR15 Pack",
