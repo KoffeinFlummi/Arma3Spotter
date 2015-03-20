@@ -15,7 +15,7 @@
       }
     ]
   },
-  { 
+  {
     "type": "srifle_DMR_01_F",
     "name": "VS-121",
     "mod": "Arma3",
@@ -392,7 +392,6 @@
       }
     ]
   },
-  
   {
     "type": "rhs_weap_sr25",
     "name": "SR-25",
