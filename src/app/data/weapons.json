@@ -287,7 +287,7 @@
   },
   {
     "type": "Trixie_M107_Black",
-    "name": "Barret M107",
+    "name": "Barret M107 (Black)",
     "mod": "Trixie's Sniper/Marksman Pack",
     "magazines": [
       {
@@ -296,6 +296,24 @@
         "name": "10Rnd 12.7x99mm",
         "initSpeed": 820,
         "airFriction": -0.00086,
+        "timeToLive": 10,
+        "simulationStep": 0.05
+      },
+      {
+        "type": "Trixie_10x127_HE_Mag",
+        "ammo": "Trixie_127_HE_Ball",
+        "name": "10Rnd 12.7x99mm HE",
+        "initSpeed": 1060,
+        "airFriction": -0.00086,
+        "timeToLive": 10,
+        "simulationStep": 0.05
+      },
+      {
+        "type": "Trixie_10x127_HEIAP_Mag",
+        "ammo": "B_127x108_APDS",
+        "name": "10Rnd Raufoss Mk 211 HEIAP",
+        "initSpeed": 1060,
+        "airFriction": -0.00036,
         "timeToLive": 10,
         "simulationStep": 0.05
       }
