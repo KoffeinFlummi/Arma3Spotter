@@ -1621,5 +1621,85 @@
         "simulationStep": 0.05
       }
     ]
+  },
+    {
+    "type": "srifle_DMR_04_F",
+    "name": "ASP-1 Kir 12.7mm",
+    "mod": "Arma3",
+    "magazines": [
+      {
+        "type": "10Rnd_127x54_Mag",
+        "ammo": "B_127x54_Ball",
+        "name": "12.7mm 10Rnd Mag",
+        "initSpeed": 290,
+        "airFriction": -0.0014,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      }
+    ]
+  }
+    {
+    "type": "srifle_DMR_05_blk_F",
+    "name": "Cyrus 9.3mm",
+    "mod": "Arma3",
+    "magazines": [
+      {
+        "type": "10Rnd_93x64_DMR_05_Mag",
+        "ammo": "B_93x64_Ball",
+        "name": "9.3mm 10Rnd Mag",
+        "initSpeed": 870,
+        "airFriction": -0.00075,
+        "timeToLive": 10,
+        "simulationStep": 0.05
+      }
+    ]
+  }
+    {
+    "type": "srifle_DMR_02_F",
+    "name": "MAR-10 .338",
+    "mod": "Arma3",
+    "magazines": [
+      {
+        "type": "10Rnd_338_Mag",
+        "ammo": "B_338_Ball",
+        "name": ".338 LM 10Rnd Mag",
+        "initSpeed": 915,
+        "airFriction": -0.00061,
+        "timeToLive": 10,
+        "simulationStep": 0.05
+      }
+    ]
+  }
+    {
+    "type": "srifle_DMR_03_F",
+    "name": "Mk-I EMR 7.62mm",
+    "mod": "Arma3",
+    "magazines": [
+      {
+        "type": "20Rnd_762x51_Mag",
+        "ammo": "AGM_B_762x51_M118LR",
+        "name": "7.62mm 20Rnd Mag",
+        "initSpeed": 792,
+        "airFriction": -0.0008577,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      }
+    ]
+  }
+    {
+    "type": "srifle_DMR_06_olive_F",
+    "name": "Mk14 7.62mm",
+    "mod": "Arma3",
+    "magazines": [
+      {
+        "type": "20Rnd_762x51_Mag",
+        "ammo": "AGM_B_762x51_M118LR",
+        "name": "7.62mm 20Rnd Mag",
+        "initSpeed": 792,
+        "airFriction": -0.0008577,
+        "timeToLive": 6,
+        "simulationStep": 0.05
+      }
+    ]
   }
 ]
