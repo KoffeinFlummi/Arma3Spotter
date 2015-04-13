@@ -57,7 +57,7 @@
         "ammo": "B_127x108_Ball",
         "name": "12.7mm 5Rnd Mag",
         "initSpeed": 820,
-        "airFriction": -0.00056,
+        "airFriction": -0.00086,
         "timeToLive": 6,
         "simulationStep": 0.05
       },
